@@ -1,8 +1,40 @@
 <div align="center">
 
-<a href="https://rudradudhat2509.github.io/">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=900&size=52&duration=3000&pause=99999&color=D4A843&center=true&vCenter=true&width=800&height=90&lines=Rudra+Dudhat" alt="Rudra Dudhat" />
-</a>
+<svg width="800" height="100" viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B6914;stop-opacity:1">
+        <animate attributeName="offset" values="-1;0;1" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="30%" style="stop-color:#F0DEB4;stop-opacity:1">
+        <animate attributeName="offset" values="-0.7;0.3;1.3" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="60%" style="stop-color:#D4A843;stop-opacity:1">
+        <animate attributeName="offset" values="-0.4;0.6;1.6" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#8B6914;stop-opacity:1">
+        <animate attributeName="offset" values="0;1;2" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <text
+    x="400" y="68"
+    font-family="Georgia, serif"
+    font-size="58"
+    font-weight="bold"
+    text-anchor="middle"
+    fill="url(#shimmer)"
+    filter="url(#glow)"
+    letter-spacing="4"
+  >Rudra Dudhat</text>
+</svg>
 
 <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=400&size=16&duration=99999&pause=99999&color=888888&center=true&vCenter=true&width=600&height=30&lines=AI+Engineer+%E2%80%94+IIT+Bhilai+%E2%80%94+2nd+Year+DSAI" alt="subtitle" />
 
