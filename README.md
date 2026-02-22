@@ -42,7 +42,7 @@ rudra = {
 <tr>
 <td width="50%">
 
-### 🔥 Cascade AI — Multi-Agent Platform
+### Cascade AI — Multi-Agent Platform
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
 ![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=flat)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
@@ -57,7 +57,7 @@ rudra = {
 </td>
 <td width="50%">
 
-### 📈 OptiQuant — Full-Stack ML Trading App
+### OptiQuant — Full-Stack ML Trading App
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white)
@@ -75,7 +75,7 @@ Ensemble ML (LightGBM + CatBoost + RF) with walk-forward backtesting, SHAP expla
 <tr>
 <td width="50%">
 
-### 🤖 Personal Outreach Engine
+### Personal Outreach Engine
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
 ![Scikit](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
@@ -87,7 +87,7 @@ Automated job scraping → embedding-based scoring → LLM email generation → 
 </td>
 <td width="50%">
 
-### 🕸️ Friendship Graph — Social Network Analysis
+### Friendship Graph — Social Network Analysis
 ![NetworkX](https://img.shields.io/badge/NetworkX-blue?style=flat)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 
@@ -192,6 +192,6 @@ Community detection and graph algorithms on social network data. Visualised with
 
 *"A model that runs only on your laptop is not a product. It is a proof of concept wearing a costume."*
 
-⭐ **Rudra Dudhat** · IIT Bhilai DSAI · 2024–2028 · Last updated Feb 2026
+ **Rudra Dudhat** · IIT Bhilai DSAI · 2024–2028 · Last updated Feb 2026
 
 </div>
