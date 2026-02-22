@@ -185,16 +185,16 @@ Scrapes job listings, scores them using embedding similarity against your profil
 [![Repos Card](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RudraDudhat2509&theme=github_dark)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 [![Commit Card](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=RudraDudhat2509&theme=github_dark)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
-
-
 </div>
 
-<div align="center">
+---
 
-[![Repos Card](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RudraDudhat2509&theme=github_dark)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![Commit Card](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=RudraDudhat2509&theme=github_dark)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+## CODING ACTIVITY
 
-</div>
+> Powered by WakaTime — updates every 24 hours via GitHub Actions
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ---
 
