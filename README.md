@@ -194,6 +194,69 @@ Scrapes job listings, scores them using embedding similarity against your profil
 > Powered by WakaTime — updates every 24 hours via GitHub Actions
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue?style=flat)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
+
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-69.11%20thousand%20lines%20of%20code-blue?style=flat)
+
+**🐱 My GitHub Data** 
+
+> 📦 ? Used in GitHub's Storage 
+ > 
+> 🏆 62 Contributions in the Year 2026
+ > 
+> 💼 Opted to Hire
+ > 
+> 📜 13 Public Repositories 
+ > 
+> 🔑 0 Private Repositories 
+ > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                10 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.58 % 
+🌆 Daytime                69 commits          ███████████░░░░░░░░░░░░░░   45.39 % 
+🌃 Evening                62 commits          ██████████░░░░░░░░░░░░░░░   40.79 % 
+🌙 Night                  11 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.24 % 
+```
+📅 **I'm Most Productive on Saturday** 
+
+```text
+Monday                   3 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   01.97 % 
+Tuesday                  41 commits          ███████░░░░░░░░░░░░░░░░░░   26.97 % 
+Wednesday                1 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.66 % 
+Thursday                 30 commits          █████░░░░░░░░░░░░░░░░░░░░   19.74 % 
+Friday                   6 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.95 % 
+Saturday                 51 commits          ████████░░░░░░░░░░░░░░░░░   33.55 % 
+Sunday                   20 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.16 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+💬 Programming Languages: 
+No Activity Tracked This Week
+```
+
+**I Mostly Code in Jupyter Notebook** 
+
+```text
+Jupyter Notebook         7 repos             ████████████████░░░░░░░░░   63.64 % 
+TypeScript               2 repos             █████░░░░░░░░░░░░░░░░░░░░   18.18 % 
+Python                   1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
+HTML                     1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/bar_graph.png)
+
+
+ Last Updated on 22/02/2026 17:05:00 UTC
 <!--END_SECTION:waka-->
 
 ---
