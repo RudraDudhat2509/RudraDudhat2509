@@ -194,8 +194,6 @@ Scrapes job listings, scores them using embedding similarity against your profil
 > Powered by WakaTime — updates every 24 hours via GitHub Actions
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue?style=flat)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-69.11%20thousand%20lines%20of%20code-blue?style=flat)
@@ -256,7 +254,7 @@ HTML                     1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/bar_graph.png)
 
 
- Last Updated on 22/02/2026 17:05:00 UTC
+ Last Updated on 23/02/2026 01:52:17 UTC
 <!--END_SECTION:waka-->
 
 ---
