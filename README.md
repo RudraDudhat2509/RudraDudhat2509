@@ -194,7 +194,7 @@ Scrapes job listings, scores them using embedding similarity against your profil
 > Powered by WakaTime — updates every 24 hours via GitHub Actions
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%20hrs%2041%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-3%20hrs%2020%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-14-blue?style=flat)
 
@@ -237,9 +237,10 @@ Sunday                   20 commits          ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Python                   50 mins             █████████████████████████   98.93 % 
-Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.97 % 
-TOML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 % 
+Python                   1 hr 51 mins        ███████████████████████░░   92.24 % 
+TOML                     5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.23 % 
+Bash                     3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.10 % 
+Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.43 % 
 ```
 
 **I Mostly Code in Jupyter Notebook** 
@@ -258,7 +259,7 @@ TypeScript               2 repos             ███░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/bar_graph.png)
 
 
- Last Updated on 11/03/2026 01:44:10 UTC
+ Last Updated on 12/03/2026 01:45:43 UTC
 <!--END_SECTION:waka-->
 
 ---
