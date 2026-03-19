@@ -194,9 +194,9 @@ Scrapes job listings, scores them using embedding similarity against your profil
 > Powered by WakaTime — updates every 24 hours via GitHub Actions
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%20hrs%2029%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%20hrs%2035%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-11-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-19-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-74.41%20thousand%20lines%20of%20code-blue?style=flat)
 
@@ -237,10 +237,8 @@ Sunday                   20 commits          ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Python                   1 hr 6 mins         ██████████████████████░░░   88.27 % 
-TOML                     5 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.73 % 
-Bash                     3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.98 % 
-Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
+Python                   5 mins              ████████████████░░░░░░░░░   62.22 % 
+HTML                     3 mins              █████████░░░░░░░░░░░░░░░░   37.78 % 
 ```
 
 **I Mostly Code in Jupyter Notebook** 
@@ -259,7 +257,7 @@ TypeScript               2 repos             ███░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/bar_graph.png)
 
 
- Last Updated on 18/03/2026 01:54:59 UTC
+ Last Updated on 19/03/2026 01:55:28 UTC
 <!--END_SECTION:waka-->
 
 ---
