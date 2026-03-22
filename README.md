@@ -196,7 +196,7 @@ Scrapes job listings, scores them using embedding similarity against your profil
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-4%20hrs%2038%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-19-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-12-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-74.41%20thousand%20lines%20of%20code-blue?style=flat)
 
@@ -257,7 +257,7 @@ TypeScript               2 repos             ███░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/bar_graph.png)
 
 
- Last Updated on 21/03/2026 01:43:58 UTC
+ Last Updated on 22/03/2026 01:55:01 UTC
 <!--END_SECTION:waka-->
 
 ---
