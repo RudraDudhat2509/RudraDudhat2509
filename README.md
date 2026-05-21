@@ -8,11 +8,12 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2800&pause=900&color=D4A843&center=true&vCenter=true&width=650&lines=Production+AI+Engineer;Multi-Agent+Systems+%7C+LLM+Pipelines;Not+notebooks.+Real+deployments.;CGPA+9.48+at+IIT+Bhilai;Open+to+AI+Engineering+Internships)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2800&pause=900&color=D4A843&center=true&vCenter=true&width=700&lines=LLM+Security+%7C+Agentic+Attack+Surfaces;AI+Observability+%7C+OpenTelemetry+%7C+Evals;Not+notebooks.+Real+deployments.;CGPA+9.48+at+IIT+Bhilai;Open+to+AI+Engineering+Internships)](https://git.io/typing-svg)
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d0d0d?style=for-the-badge&logo=linkedin&logoColor=D4A843)](https://www.linkedin.com/in/rdudhat-iitbhilai/)
+[![X](https://img.shields.io/badge/X-0d0d0d?style=for-the-badge&logo=x&logoColor=D4A843)](https://twitter.com/rudrabuilds)
 [![Portfolio](https://img.shields.io/badge/Portfolio-0d0d0d?style=for-the-badge&logo=firefoxbrowser&logoColor=D4A843)](https://rudradudhat2509.github.io/)
 [![Kaggle](https://img.shields.io/badge/Kaggle-0d0d0d?style=for-the-badge&logo=kaggle&logoColor=D4A843)](https://www.kaggle.com/rudrad7)
 [![Email](https://img.shields.io/badge/Email-0d0d0d?style=for-the-badge&logo=gmail&logoColor=D4A843)](mailto:contact.rdudhat@gmail.com)
@@ -36,20 +37,34 @@ class RudraDudhat:
     year       = "2nd Year (2024–2028)"
     location   = "Navi Mumbai, India"
 
+    roles = [
+        "AI Automations Intern  @ Altagic            (May 2026 →)",
+        "Domain Lead AI/ML      @ Openlake, IIT Bhilai (2025 →)",
+        "Placement Coordinator  @ CCPS, IIT Bhilai    (2025 →)",
+    ]
+
+    niche = {
+        "primary"   : "LLM security — agentic attack surfaces",
+        "vectors"   : ["MCP tool poisoning", "agent memory poisoning", "multi-agent attack chains"],
+        "secondary" : "AI observability — OpenTelemetry · Langfuse · RAGAS",
+    }
+
     shipped = {
-        "Cascade AI" : "Firebase Cloud Functions — Multi-Agent LLM Pipeline",
-        "OptiQuant"  : "Streamlit Cloud — Full-Stack ML Trading App",
+        "diffprompt" : "PyPI — Behavioral prompt regression testing with LLM-as-judge cascades",
+        "Cascade AI" : "Firebase — Multi-Agent LLM orchestration pipeline",
+        "OptiQuant"  : "Streamlit Cloud — Full-Stack ML trading application",
     }
 
     stack = {
-        "LLM"   : ["LangChain", "OpenAI API", "HuggingFace", "RAG", "Ollama"],
-        "ML"    : ["LightGBM", "CatBoost", "PyTorch", "SHAP", "Scikit-learn"],
-        "Infra" : ["Docker", "AWS EC2", "Firebase", "GitHub Actions", "CI/CD"],
-        "Web"   : ["Streamlit", "Flask", "Gradio"],
+        "LLM/Agents" : ["LangGraph", "LangChain", "OpenAI API", "HuggingFace", "Groq", "Ollama"],
+        "Security"   : ["garak", "OWASP LLM Top 10", "agentic attack research"],
+        "Observ."    : ["OpenTelemetry", "Langfuse", "RAGAS"],
+        "ML"         : ["LightGBM", "CatBoost", "PyTorch", "SHAP", "HDBSCAN", "FAISS", "Qdrant"],
+        "Backend"    : ["FastAPI", "Firebase", "PostgreSQL", "Redis"],
+        "Infra"      : ["Docker", "AWS EC2", "GCP", "GitHub Actions", "n8n"],
     }
 
-    philosophy = "A model that runs only on your laptop is not a product."
-    seeking    = "AI Engineering Internship — Remote / Mumbai"
+    seeking    = "Forward Deployed Engineering | AI Reliability | LLM Security"
 
     def ship(self, idea):
         prototype     = self.build(idea)
@@ -60,7 +75,43 @@ class RudraDudhat:
 
 ---
 
+## FOCUS
+
+```python
+# The attack surface nobody is talking about yet.
+
+agentic_security = {
+    "problem" : "LLM agents now call tools, hold memory, and talk to other agents. "
+                "Every one of those surfaces is an attack vector.",
+
+    "vectors" : {
+        "MCP tool poisoning"       : "injecting malicious behavior through tool definitions",
+        "agent memory poisoning"   : "corrupting persistent memory to alter future decisions",
+        "multi-agent attack chains": "exploiting trust between agents in an orchestration",
+    },
+
+    "why_now"  : "everyone is building agentic systems. almost no one is red-teaming them.",
+    "position" : "AI Product Engineer with a security and reliability lens.",
+}
+```
+
+---
+
 ## PROJECTS
+
+### DIFFPROMPT — Behavioral Prompt Regression Testing
+
+![Status](https://img.shields.io/badge/LIVE%20ON%20PYPI-228B22?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-2d2d2d?style=flat-square&logo=python&logoColor=D4A843)
+![PyPI](https://img.shields.io/badge/PyPI-2d2d2d?style=flat-square&logo=pypi&logoColor=D4A843)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-2d2d2d?style=flat-square&logo=huggingface&logoColor=D4A843)
+![HDBSCAN](https://img.shields.io/badge/HDBSCAN-2d2d2d?style=flat-square&logoColor=D4A843)
+
+Open source library + CLI for catching prompt regressions before they hit production. LLM-as-judge cascade scores behavioral divergence between prompt versions. HDBSCAN clustering surfaces semantic drift. Quantifies change in a way that maps to human intuition — not just cosine distance.
+
+**Built because silent prompt regressions are how production AI breaks quietly.**
+
+---
 
 ### CASCADE AI — Multi-Agent Intelligence Platform
 
@@ -71,7 +122,7 @@ class RudraDudhat:
 ![GCS](https://img.shields.io/badge/GCS-2d2d2d?style=flat-square&logo=googlecloud&logoColor=D4A843)
 ![Python](https://img.shields.io/badge/Python-2d2d2d?style=flat-square&logo=python&logoColor=D4A843)
 
-An LLM planner that decomposes plain-text goals into coordinated multi-agent blueprints — web search, scraping, auditing, routing, and formatting — executed in sequence via Firebase Cloud Functions. Self-healing router with conditional branching handles mid-run failures automatically. Per-user private memory stored in Firestore; large intermediate payloads offloaded to GCS.
+An LLM planner that decomposes plain-text goals into coordinated multi-agent blueprints — web search, scraping, auditing, routing, and formatting — executed in sequence via Firebase Cloud Functions. Self-healing router with conditional branching handles mid-run failures automatically. Per-user private memory in Firestore. Large intermediate payloads offloaded to GCS.
 
 **Not a chatbot. Not an API wrapper. A production orchestration system.**
 
@@ -101,13 +152,29 @@ Weighted ensemble (LightGBM 40% + CatBoost 40% + Random Forest 20%) with walk-fo
 ### PERSONAL OUTREACH ENGINE — Automated Intelligence Pipeline
 
 ![Status](https://img.shields.io/badge/ACTIVE-228B22?style=for-the-badge)
+![LangGraph](https://img.shields.io/badge/LangGraph-2d2d2d?style=flat-square&logoColor=D4A843)
+![Groq](https://img.shields.io/badge/Groq-2d2d2d?style=flat-square&logoColor=D4A843)
 ![Python](https://img.shields.io/badge/Python-2d2d2d?style=flat-square&logo=python&logoColor=D4A843)
-![Selenium](https://img.shields.io/badge/Selenium-2d2d2d?style=flat-square&logo=selenium&logoColor=D4A843)
-![GPT4](https://img.shields.io/badge/GPT--4o-2d2d2d?style=flat-square&logo=openai&logoColor=D4A843)
 ![Sheets](https://img.shields.io/badge/Google_Sheets-2d2d2d?style=flat-square&logo=googlesheets&logoColor=D4A843)
 [![View Repo](https://img.shields.io/badge/GitHub-D4A843?style=for-the-badge&logo=github&logoColor=0d0d0d)](https://github.com/RudraDudhat2509/personal-outreach-engine)
 
-Scrapes job listings, scores them using embedding similarity against your profile, generates personalized cold emails with GPT-4o, requires human approval before sending, then classifies replies and retrains a logistic regression model to re-rank future opportunities. Gets smarter with every send.
+LangGraph + Groq cold email automation with human-in-the-loop Gmail approval. Scrapes listings, scores them with embedding similarity against your profile, generates personalized emails, requires human sign-off before sending, then classifies replies and retrains a logistic regression model to re-rank future opportunities.
+
+**Gets smarter with every send.**
+
+---
+
+## OPEN SOURCE
+
+Active contributor to production LLM infrastructure:
+
+| Repository | Domain |
+|---|---|
+| [traceloop/openllmetry](https://github.com/traceloop/openllmetry) | LLM instrumentation & tracing |
+| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | LLM evaluation framework |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | LLM gateway & proxy |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | ML experiment tracking |
+| [leondz/garak](https://github.com/leondz/garak) | LLM security & red teaming |
 
 ---
 
@@ -122,32 +189,43 @@ Scrapes job listings, scores them using embedding similarity against your profil
 ![Java](https://img.shields.io/badge/Java-1a1a1a?style=for-the-badge&logo=openjdk&logoColor=D4A843)
 ![C](https://img.shields.io/badge/C-1a1a1a?style=for-the-badge&logo=c&logoColor=D4A843)
 
+**LLM & AGENTS**
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1a1a1a?style=for-the-badge&logoColor=D4A843)
+![LangChain](https://img.shields.io/badge/LangChain-1a1a1a?style=for-the-badge&logoColor=D4A843)
+![OpenAI](https://img.shields.io/badge/OpenAI-1a1a1a?style=for-the-badge&logo=openai&logoColor=D4A843)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-1a1a1a?style=for-the-badge&logo=huggingface&logoColor=D4A843)
+![Groq](https://img.shields.io/badge/Groq-1a1a1a?style=for-the-badge&logoColor=D4A843)
+![Ollama](https://img.shields.io/badge/Ollama-1a1a1a?style=for-the-badge&logoColor=D4A843)
+
+**SECURITY & OBSERVABILITY**
+
+![garak](https://img.shields.io/badge/garak-1a1a1a?style=for-the-badge&logoColor=D4A843)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-1a1a1a?style=for-the-badge&logo=opentelemetry&logoColor=D4A843)
+![Langfuse](https://img.shields.io/badge/Langfuse-1a1a1a?style=for-the-badge&logoColor=D4A843)
+![RAGAS](https://img.shields.io/badge/RAGAS-1a1a1a?style=for-the-badge&logoColor=D4A843)
+
 **ML / DEEP LEARNING**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-1a1a1a?style=for-the-badge&logo=pytorch&logoColor=D4A843)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-1a1a1a?style=for-the-badge&logo=tensorflow&logoColor=D4A843)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1a1a1a?style=for-the-badge&logo=scikit-learn&logoColor=D4A843)
 ![LightGBM](https://img.shields.io/badge/LightGBM-1a1a1a?style=for-the-badge&logoColor=D4A843)
 ![CatBoost](https://img.shields.io/badge/CatBoost-1a1a1a?style=for-the-badge&logoColor=D4A843)
 ![SHAP](https://img.shields.io/badge/SHAP-1a1a1a?style=for-the-badge&logoColor=D4A843)
+![FAISS](https://img.shields.io/badge/FAISS-1a1a1a?style=for-the-badge&logoColor=D4A843)
 ![Pandas](https://img.shields.io/badge/Pandas-1a1a1a?style=for-the-badge&logo=pandas&logoColor=D4A843)
 ![NumPy](https://img.shields.io/badge/NumPy-1a1a1a?style=for-the-badge&logo=numpy&logoColor=D4A843)
 
-**LLM & GENAI**
+**BACKEND & INFRA**
 
-![LangChain](https://img.shields.io/badge/LangChain-1a1a1a?style=for-the-badge&logoColor=D4A843)
-![OpenAI](https://img.shields.io/badge/OpenAI-1a1a1a?style=for-the-badge&logo=openai&logoColor=D4A843)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-1a1a1a?style=for-the-badge&logo=huggingface&logoColor=D4A843)
-![RAG](https://img.shields.io/badge/RAG-1a1a1a?style=for-the-badge&logoColor=D4A843)
-![Ollama](https://img.shields.io/badge/Ollama-1a1a1a?style=for-the-badge&logoColor=D4A843)
-
-**INFRA & DEVOPS**
-
+![FastAPI](https://img.shields.io/badge/FastAPI-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=D4A843)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1a1a1a?style=for-the-badge&logo=postgresql&logoColor=D4A843)
+![Redis](https://img.shields.io/badge/Redis-1a1a1a?style=for-the-badge&logo=redis&logoColor=D4A843)
 ![AWS](https://img.shields.io/badge/AWS_EC2-1a1a1a?style=for-the-badge&logo=amazonaws&logoColor=D4A843)
 ![Docker](https://img.shields.io/badge/Docker-1a1a1a?style=for-the-badge&logo=docker&logoColor=D4A843)
 ![Firebase](https://img.shields.io/badge/Firebase-1a1a1a?style=for-the-badge&logo=firebase&logoColor=D4A843)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-1a1a1a?style=for-the-badge&logo=githubactions&logoColor=D4A843)
-![GCS](https://img.shields.io/badge/Google_Cloud-1a1a1a?style=for-the-badge&logo=googlecloud&logoColor=D4A843)
+![n8n](https://img.shields.io/badge/n8n-1a1a1a?style=for-the-badge&logo=n8n&logoColor=D4A843)
 
 </div>
 
@@ -200,17 +278,17 @@ Scrapes job listings, scores them using embedding similarity against your profil
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-74.41%20thousand%20lines%20of%20code-blue?style=flat)
 
-**🐱 My GitHub Data** 
+** My GitHub Data** 
 
-> 📦 ? Used in GitHub's Storage 
+> ? Used in GitHub's Storage 
  > 
-> 🏆 116 Contributions in the Year 2026
+>  116 Contributions in the Year 2026
  > 
-> 💼 Opted to Hire
+>  Opted to Hire
  > 
-> 📜 18 Public Repositories 
+>  18 Public Repositories 
  > 
-> 🔑 0 Private Repositories 
+>  0 Private Repositories 
  > 
 **I'm an Early 🐤** 
 
@@ -265,14 +343,17 @@ TypeScript               2 repos             ███░░░░░░░░�
 ## EXPERIENCE
 
 ```
-Aug 2025 – Present    Core Member           DS&AI Club, IIT Bhilai
-                      Led 12-person team    200+ students across workshops
+May 2026 – Present    AI Automations Intern   Altagic
+                      n8n · WhatsApp API      Multi-channel AI automation workflows
 
-Aug 2025 – Present    Placement Volunteer   CCPS, IIT Bhilai
-                      50+ cold outreach     2 new recruiters onboarded
+Aug 2025 – Present    Domain Lead AI/ML       Openlake, IIT Bhilai
+                      OSS community lead      IIT Bhilai's open source club
 
-Jul 2024 – May 2028   B.Tech DSAI           IIT Bhilai
-                      CGPA 9.48 / 10        JEE Advanced Rank 10,463
+Aug 2025 – Present    Placement Coordinator   CCPS, IIT Bhilai
+                      200+ students           30+ companies managed
+
+Jul 2024 – May 2028   B.Tech DSAI             IIT Bhilai
+                      CGPA 9.48 / 10          JEE Advanced Rank 10,463
 ```
 
 ---
