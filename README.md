@@ -164,19 +164,6 @@ LangGraph + Groq cold email automation with human-in-the-loop Gmail approval. Sc
 
 ---
 
-## OPEN SOURCE
-
-Active contributor to production LLM infrastructure:
-
-| Repository | Domain |
-|---|---|
-| [traceloop/openllmetry](https://github.com/traceloop/openllmetry) | LLM instrumentation & tracing |
-| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | LLM evaluation framework |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | LLM gateway & proxy |
-| [mlflow/mlflow](https://github.com/mlflow/mlflow) | ML experiment tracking |
-| [leondz/garak](https://github.com/leondz/garak) | LLM security & red teaming |
-
----
 
 ## ARSENAL
 
