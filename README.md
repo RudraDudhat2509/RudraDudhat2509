@@ -259,7 +259,9 @@ LangGraph + Groq cold email automation with human-in-the-loop Gmail approval. Sc
 > Powered by WakaTime — updates every 24 hours via GitHub Actions
 
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-23%20hrs%204%20mins-blue?style=flat)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-13-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-87.80%20thousand%20lines%20of%20code-blue?style=flat)
 
@@ -267,11 +269,11 @@ LangGraph + Groq cold email automation with human-in-the-loop Gmail approval. Sc
 
 > 📦 ? Used in GitHub's Storage 
  > 
-> 🏆 167 Contributions in the Year 2026
+> 🏆 171 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
-> 📜 26 Public Repositories 
+> 📜 27 Public Repositories 
  > 
 > 🔑 0 Private Repositories 
  > 
@@ -310,11 +312,11 @@ HTML                     1 hr 11 mins        ██░░░░░░░░░�
 **I Mostly Code in Jupyter Notebook** 
 
 ```text
-Jupyter Notebook         9 repos             █████████░░░░░░░░░░░░░░░░   36.00 % 
-Python                   7 repos             ███████░░░░░░░░░░░░░░░░░░   28.00 % 
-HTML                     5 repos             █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
-TypeScript               3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.00 % 
-JavaScript               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.00 % 
+Jupyter Notebook         9 repos             █████████░░░░░░░░░░░░░░░░   34.62 % 
+Python                   8 repos             ████████░░░░░░░░░░░░░░░░░   30.77 % 
+HTML                     5 repos             █████░░░░░░░░░░░░░░░░░░░░   19.23 % 
+TypeScript               3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.54 % 
+JavaScript               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.85 % 
 ```
 
 
@@ -324,7 +326,7 @@ JavaScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/bar_graph.png)
 
 
- Last Updated on 22/05/2026 02:57:27 UTC
+ Last Updated on 23/05/2026 03:09:44 UTC
 <!--END_SECTION:waka-->
 
 ---
