@@ -259,64 +259,30 @@ LangGraph + Groq cold email automation with human-in-the-loop Gmail approval. Sc
 > Powered by WakaTime — updates every 24 hours via GitHub Actions
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-40%20hrs%2012%20mins-blue?style=flat)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-15-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-88.28%20thousand%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-88.53%20thousand%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
  > 
-> 🏆 182 Contributions in the Year 2026
+> 🏆 184 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
-> 📜 32 Public Repositories 
+> 📜 33 Public Repositories 
  > 
 > 🔑 0 Private Repositories 
  > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                14 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.83 % 
-🌆 Daytime                103 commits         ███████████░░░░░░░░░░░░░░   42.92 % 
-🌃 Evening                83 commits          █████████░░░░░░░░░░░░░░░░   34.58 % 
-🌙 Night                  40 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.67 % 
-```
-📅 **I'm Most Productive on Saturday** 
-
-```text
-Monday                   6 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   02.50 % 
-Tuesday                  54 commits          ██████░░░░░░░░░░░░░░░░░░░   22.50 % 
-Wednesday                22 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.17 % 
-Thursday                 37 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.42 % 
-Friday                   10 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   04.17 % 
-Saturday                 87 commits          █████████░░░░░░░░░░░░░░░░   36.25 % 
-Sunday                   24 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   10.00 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-Python                   8 hrs 29 mins       ████████░░░░░░░░░░░░░░░░░   32.57 % 
-Markdown                 7 hrs 35 mins       ███████░░░░░░░░░░░░░░░░░░   29.15 % 
-Other                    5 hrs 9 mins        █████░░░░░░░░░░░░░░░░░░░░   19.83 % 
-HTML                     1 hr 28 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.64 % 
-Text                     1 hr 24 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.40 % 
-```
-
 **I Mostly Code in Python** 
 
 ```text
-Python                   10 repos            █████████░░░░░░░░░░░░░░░░   35.71 % 
-Jupyter Notebook         9 repos             ████████░░░░░░░░░░░░░░░░░   32.14 % 
-HTML                     5 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.86 % 
-TypeScript               3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.71 % 
-JavaScript               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.57 % 
+Python                   11 repos            █████████░░░░░░░░░░░░░░░░   37.93 % 
+Jupyter Notebook         9 repos             ████████░░░░░░░░░░░░░░░░░   31.03 % 
+HTML                     5 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.24 % 
+TypeScript               3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
+JavaScript               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
 ```
 
 
@@ -326,7 +292,7 @@ JavaScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/bar_graph.png)
 
 
- Last Updated on 28/05/2026 03:26:22 UTC
+ Last Updated on 29/05/2026 03:32:29 UTC
 <!--END_SECTION:waka-->
 
 ---
