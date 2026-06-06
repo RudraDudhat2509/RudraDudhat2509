@@ -259,9 +259,9 @@ LangGraph + Groq cold email automation with human-in-the-loop Gmail approval. Sc
 > Powered by WakaTime — updates every 24 hours via GitHub Actions
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-71%20hrs%2038%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-75%20hrs%2056%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-15-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-92.71%20thousand%20lines%20of%20code-blue?style=flat)
 
@@ -302,11 +302,11 @@ Sunday                   27 commits          ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               8 hrs 14 mins       ████████░░░░░░░░░░░░░░░░░   32.17 % 
-Markdown                 6 hrs 45 mins       ███████░░░░░░░░░░░░░░░░░░   26.42 % 
-Other                    3 hrs 49 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.94 % 
-Python                   2 hrs 38 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.29 % 
-Text                     1 hr 17 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.03 % 
+TypeScript               7 hrs 32 mins       ████████░░░░░░░░░░░░░░░░░   30.36 % 
+Markdown                 6 hrs 40 mins       ███████░░░░░░░░░░░░░░░░░░   26.90 % 
+Other                    3 hrs 47 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.25 % 
+Python                   2 hrs 49 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.36 % 
+Text                     1 hr 5 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.40 % 
 ```
 
 **I Mostly Code in Python** 
@@ -326,7 +326,7 @@ JavaScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/bar_graph.png)
 
 
- Last Updated on 05/06/2026 03:39:20 UTC
+ Last Updated on 06/06/2026 03:29:28 UTC
 <!--END_SECTION:waka-->
 
 ---
