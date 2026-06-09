@@ -33,7 +33,7 @@ class RudraDudhat:
 
     institute  = "Indian Institute of Technology, Bhilai"
     degree     = "B.Tech — Data Science & Artificial Intelligence"
-    cgpa       = 9.48  # out of 10
+    cgpa       = 9.06  # out of 10
     year       = "2nd Year (2024–2028)"
     location   = "Navi Mumbai, India"
 
