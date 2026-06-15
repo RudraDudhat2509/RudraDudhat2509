@@ -8,7 +8,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2800&pause=900&color=D4A843&center=true&vCenter=true&width=700&lines=LLM+Security+%7C+Agentic+Attack+Surfaces;AI+Observability+%7C+OpenTelemetry+%7C+Evals;Not+notebooks.+Real+deployments.;CGPA+9.48+at+IIT+Bhilai;Open+to+AI+Engineering+Internships)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2800&pause=900&color=D4A843&center=true&vCenter=true&width=700&lines=LLM+Security+%7C+Agentic+Attack+Surfaces;AI+Observability+%7C+OpenTelemetry+%7C+Evals;Not+notebooks.+Real+deployments.;CGPA+9.06+at+IIT+Bhilai;Open+to+AI+Engineering+Internships)](https://git.io/typing-svg)
 
 <br/>
 
@@ -344,7 +344,7 @@ Aug 2025 – Present    Placement Coordinator   CCPS, IIT Bhilai
                       200+ students           30+ companies managed
 
 Jul 2024 – May 2028   B.Tech DSAI             IIT Bhilai
-                      CGPA 9.48 / 10          JEE Advanced Rank 10,463
+                      CGPA 9.06 / 10          JEE Advanced Rank 10,463
 ```
 
 ---
