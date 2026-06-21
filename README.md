@@ -15,7 +15,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d0d0d?style=for-the-badge&logo=linkedin&logoColor=D4A843)](https://www.linkedin.com/in/rdudhat-iitbhilai/)
 [![X](https://img.shields.io/badge/X-0d0d0d?style=for-the-badge&logo=x&logoColor=D4A843)](https://twitter.com/rudrabuilds)
 [![Portfolio](https://img.shields.io/badge/Portfolio-0d0d0d?style=for-the-badge&logo=firefoxbrowser&logoColor=D4A843)](https://rudradudhat2509.github.io/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-0d0d0d?style=for-the-badge&logo=kaggle&logoColor=D4A843)](https://www.kaggle.com/rudrad7)
 [![Email](https://img.shields.io/badge/Email-0d0d0d?style=for-the-badge&logo=gmail&logoColor=D4A843)](mailto:contact.rdudhat@gmail.com)
 
 <br/>
