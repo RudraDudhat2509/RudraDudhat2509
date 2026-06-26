@@ -22,7 +22,7 @@ Production AI · agents · automations · the 2am debugging nobody posts about.
 
 ---
 
-## ⚡ Shipped upstream
+##  Shipped upstream
 
 Merged PRs into other people's production codebases: observability, AI gateways, eval tooling, security scanners. This whole block updates itself daily, because hardcoding your own PRs is embarrassing.
 
