@@ -30,14 +30,15 @@ Merged PRs into other people's production codebases: observability, AI gateways,
 
 <div align="center">
 
-![MERGED UPSTREAM](https://img.shields.io/badge/MERGED_UPSTREAM-9_PRs-B5532F?style=for-the-badge&labelColor=1C1812) ![PROD REPOS](https://img.shields.io/badge/PROD_REPOS-8-C8922F?style=for-the-badge&labelColor=1C1812) ![diffprompt](https://img.shields.io/badge/diffprompt-LIVE_ON_PyPI-3F5A36?style=for-the-badge&labelColor=1C1812)
+![MERGED UPSTREAM](https://img.shields.io/badge/MERGED_UPSTREAM-10_PRs-B5532F?style=for-the-badge&labelColor=1C1812) ![PROD REPOS](https://img.shields.io/badge/PROD_REPOS-9-C8922F?style=for-the-badge&labelColor=1C1812) ![diffprompt](https://img.shields.io/badge/diffprompt-LIVE_ON_PyPI-3F5A36?style=for-the-badge&labelColor=1C1812)
 
-**In review:** [phoenix](https://github.com/Arize-ai/phoenix) · [garak](https://github.com/NVIDIA/garak) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [opentelemetry-python](https://github.com/open-telemetry/opentelemetry-python) · [pytorch](https://github.com/pytorch/pytorch) · [ragas](https://github.com/vibrantlabsai/ragas)
+**In review:** [garak](https://github.com/NVIDIA/garak) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [opentelemetry-python](https://github.com/open-telemetry/opentelemetry-python) · [pytorch](https://github.com/pytorch/pytorch) · [ragas](https://github.com/vibrantlabsai/ragas)
 
 </div>
 
 | Repo | Contribution | Merged |
 |---|---|---|
+| [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | [fix: preserve generator inputs in create_dataset and add_examples_to_dataset](https://github.com/Arize-ai/phoenix/pull/13791) | 2026-06-30 |
 | [open-telemetry/opentelemetry-python](https://github.com/open-telemetry/opentelemetry-python) | [opentelemetry-sdk: drop NaN measurements at instrument level to prevent aggregation poisoning](https://github.com/open-telemetry/opentelemetry-python/pull/5336) | 2026-06-25 |
 | [kedro-org/kedro](https://github.com/kedro-org/kedro) | [fix: reject Python keywords as pipeline names in kedro pipeline create](https://github.com/kedro-org/kedro/pull/5612) | 2026-06-22 |
 | [kedro-org/kedro](https://github.com/kedro-org/kedro) | [fix(cli): reject project names that shadow stdlib modules or keywords](https://github.com/kedro-org/kedro/pull/5608) | 2026-06-19 |
