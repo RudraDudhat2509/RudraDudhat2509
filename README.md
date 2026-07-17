@@ -55,7 +55,7 @@ Merged PRs into other people's production codebases: observability, AI gateways,
 
 ---
 
-## 🛠 Selected work
+## Selected work
 
 | Project | The problem | What shipped |
 |---|---|---|
@@ -67,7 +67,7 @@ Merged PRs into other people's production codebases: observability, AI gateways,
 
 ---
 
-## 🧰 Stack
+##  Stack
 
 ![Python](https://img.shields.io/badge/Python-1C1812?style=for-the-badge&logo=python&logoColor=C8922F)
 ![FastAPI](https://img.shields.io/badge/FastAPI-1C1812?style=for-the-badge&logo=fastapi&logoColor=C8922F)
@@ -80,7 +80,7 @@ Merged PRs into other people's production codebases: observability, AI gateways,
 
 ---
 
-## 📓 The rest
+##  The rest
 
 Working notes that publish themselves straight from a repo: **[Field Notes](https://rudradudhat2509.github.io/notes.html)** (push a `.txt`, it shows up typeset). Built-for-the-plot side quests: **[ragbait](https://github.com/RudraDudhat2509/ragbait)**, **[iceman](https://github.com/RudraDudhat2509/iceman)**, **[ctxbridge](https://github.com/RudraDudhat2509/ctxbridge)**.
 
