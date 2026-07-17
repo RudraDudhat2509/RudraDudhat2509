@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://rudradudhat2509.github.io/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fraunces&weight=700&size=52&pause=99999&color=B5532F&center=true&vCenter=true&width=780&height=90&lines=RUDRA+DUDHAT" alt="Rudra Dudhat" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fraunces&weight=700&size=52&color=B5532F&center=true&vCenter=true&width=780&height=90&lines=RUDRA+DUDHAT" alt="Rudra Dudhat" />
 </a>
 
 ### I build AI agents, then I break them. Professionally.
