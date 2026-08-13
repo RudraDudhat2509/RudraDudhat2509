@@ -56,6 +56,35 @@ def is_external(item):
     return repo_of(item).split("/", 1)[0].lower() != USER.lower()
 
 
+def externally_merged_commit(item):
+    """Some orgs (e.g. grpc, via Copybara) sync a PR's change into an
+    internal repo and close the GitHub PR from a bot, without ever setting
+    GitHub's native "merged" flag. `is:merged` search never finds these, and
+    once closed they're not `is:open` either, so they'd silently vanish from
+    this README with no human noticing. Detect the pattern (a bot-authored
+    "closed" timeline event carrying a commit id) and verify that commit is
+    actually reachable on the repo's default branch before trusting it.
+    Returns the commit sha if verified, else None.
+    """
+    repo = repo_of(item)
+    events = gh_get(
+        f"https://api.github.com/repos/{repo}/issues/{item['number']}/timeline?per_page=100"
+    )
+    closing_commit = None
+    for event in events:
+        if event.get("event") == "closed" and event.get("commit_id"):
+            closing_commit = event["commit_id"]
+    if not closing_commit:
+        return None
+    default_branch = gh_get(f"https://api.github.com/repos/{repo}")["default_branch"]
+    compare = gh_get(
+        f"https://api.github.com/repos/{repo}/compare/{default_branch}...{closing_commit}"
+    )
+    if compare.get("status") in ("identical", "behind"):
+        return closing_commit
+    return None
+
+
 def badge(label, message, color):
     enc = lambda s: s.replace("-", "--").replace("_", "__").replace(" ", "_")
     url = (f"https://img.shields.io/badge/{enc(label)}-{enc(message)}-{color}"
@@ -66,6 +95,14 @@ def badge(label, message, color):
 def build_block():
     merged = [i for i in search("is:merged") if is_external(i)]
     open_prs = [i for i in search("is:open") if is_external(i)]
+
+    # Closed-but-not-natively-merged external PRs may still have actually
+    # landed via an internal sync (see externally_merged_commit). Check each
+    # one so real contributions like that don't quietly disappear.
+    unmerged_closed = [i for i in search("is:unmerged") if is_external(i)]
+    for item in unmerged_closed:
+        if externally_merged_commit(item):
+            merged.append(item)
 
     repos = sorted({repo_of(i) for i in merged})
     review_repos = sorted({repo_of(i) for i in open_prs})

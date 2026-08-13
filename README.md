@@ -30,14 +30,17 @@ Merged PRs into other people's production codebases: observability, AI gateways,
 
 <div align="center">
 
-![MERGED UPSTREAM](https://img.shields.io/badge/MERGED_UPSTREAM-12_PRs-B5532F?style=for-the-badge&labelColor=1C1812) ![PROD REPOS](https://img.shields.io/badge/PROD_REPOS-9-C8922F?style=for-the-badge&labelColor=1C1812) ![diffprompt](https://img.shields.io/badge/diffprompt-LIVE_ON_PyPI-3F5A36?style=for-the-badge&labelColor=1C1812)
+![MERGED UPSTREAM](https://img.shields.io/badge/MERGED_UPSTREAM-15_PRs-B5532F?style=for-the-badge&labelColor=1C1812) ![PROD REPOS](https://img.shields.io/badge/PROD_REPOS-11-C8922F?style=for-the-badge&labelColor=1C1812) ![diffprompt](https://img.shields.io/badge/diffprompt-LIVE_ON_PyPI-3F5A36?style=for-the-badge&labelColor=1C1812)
 
-**In review:** [garak](https://github.com/NVIDIA/garak) · [Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [grpc](https://github.com/grpc/grpc) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [podman](https://github.com/podman-container-tools/podman) · [shap](https://github.com/shap/shap) · [sktime](https://github.com/sktime/sktime) · [ragas](https://github.com/vibrantlabsai/ragas)
+**In review:** [garak](https://github.com/NVIDIA/garak) · [Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [podman](https://github.com/podman-container-tools/podman) · [shap](https://github.com/shap/shap) · [sktime](https://github.com/sktime/sktime) · [ragas](https://github.com/vibrantlabsai/ragas)
 
 </div>
 
 | Repo | Contribution | Merged |
 |---|---|---|
+| [grpc/grpc](https://github.com/grpc/grpc) | [[Python] fix: remove ghost key in grpc.aio.Metadata.__delitem__ when last value is deleted](https://github.com/grpc/grpc/pull/42974) | 2026-08-13 |
+| [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [chore: remove leftover debug console.log statements + bootstrap backend testing](https://github.com/OpenLake/Student_Database_COSA/pull/266) | 2026-08-13 |
+| [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [fix: allow alphanumeric student ID in registration form](https://github.com/OpenLake/Student_Database_COSA/pull/257) | 2026-08-13 |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [fix: store OpenAI agent Generation span attributes under correct SpanAttributeKey constants](https://github.com/mlflow/mlflow/pull/24290) | 2026-07-14 |
 | [open-telemetry/opentelemetry-python](https://github.com/open-telemetry/opentelemetry-python) | [fix: raise ValueError for unsorted ExplicitBucketHistogramAggregation boundaries](https://github.com/open-telemetry/opentelemetry-python/pull/5340) | 2026-07-06 |
 | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | [fix: preserve generator inputs in create_dataset and add_examples_to_dataset](https://github.com/Arize-ai/phoenix/pull/13791) | 2026-06-30 |
@@ -63,9 +66,9 @@ Tag a repo `flagship` on GitHub and it shows up here on the next daily run. No h
 
 | Project | What it does |
 |---|---|
-| **[diffprompt](https://github.com/RudraDudhat2509/diffprompt)** | git diff for prompt engineers |
 | **[brok](https://github.com/RudraDudhat2509/brok)** | An MCP that reviews your architecture, estimates real capacity from cited numbers, surfaces the trade-offs you are making, and roasts bad design in a dry voice. Deterministic engine, no model, runs free and local. |
 | **[cacheguard](https://github.com/RudraDudhat2509/cacheguard)** | Drop-in safety layer that stops semantic caches from silently returning wrong answers — with the first independent open benchmark of semantic-cache false-hit rates. Free, local, LiteLLM + OpenTelemetry. |
+| **[diffprompt](https://github.com/RudraDudhat2509/diffprompt)** | git diff for prompt engineers |
 | **[OptiQuant](https://github.com/RudraDudhat2509/OptiQuant)** | AI-powered quantitative trading platform — ensemble ML (LightGBM + CatBoost + RF), backtesting engine, and live signal scoring. Deployed on AWS EC2 fornerly, now deployed on streamlit cloud |
 
 <!-- WORK:END -->
