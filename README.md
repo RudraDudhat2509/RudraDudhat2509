@@ -30,14 +30,15 @@ Merged PRs into other people's production codebases: observability, AI gateways,
 
 <div align="center">
 
-![MERGED UPSTREAM](https://img.shields.io/badge/MERGED_UPSTREAM-15_PRs-B5532F?style=for-the-badge&labelColor=1C1812) ![PROD REPOS](https://img.shields.io/badge/PROD_REPOS-11-C8922F?style=for-the-badge&labelColor=1C1812) ![diffprompt](https://img.shields.io/badge/diffprompt-LIVE_ON_PyPI-3F5A36?style=for-the-badge&labelColor=1C1812)
+![MERGED UPSTREAM](https://img.shields.io/badge/MERGED_UPSTREAM-16_PRs-B5532F?style=for-the-badge&labelColor=1C1812) ![PROD REPOS](https://img.shields.io/badge/PROD_REPOS-12-C8922F?style=for-the-badge&labelColor=1C1812) ![diffprompt](https://img.shields.io/badge/diffprompt-LIVE_ON_PyPI-3F5A36?style=for-the-badge&labelColor=1C1812)
 
-**In review:** [garak](https://github.com/NVIDIA/garak) · [Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [podman](https://github.com/podman-container-tools/podman) · [shap](https://github.com/shap/shap) · [sktime](https://github.com/sktime/sktime) · [ragas](https://github.com/vibrantlabsai/ragas)
+**In review:** [garak](https://github.com/NVIDIA/garak) · [Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [shap](https://github.com/shap/shap) · [sktime](https://github.com/sktime/sktime) · [ragas](https://github.com/vibrantlabsai/ragas)
 
 </div>
 
 | Repo | Contribution | Merged |
 |---|---|---|
+| [podman-container-tools/podman](https://github.com/podman-container-tools/podman) | [hyperv: add timeout to vsock ready wait](https://github.com/podman-container-tools/podman/pull/29460) | 2026-08-19 |
 | [grpc/grpc](https://github.com/grpc/grpc) | [[Python] fix: remove ghost key in grpc.aio.Metadata.__delitem__ when last value is deleted](https://github.com/grpc/grpc/pull/42974) | 2026-08-13 |
 | [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [chore: remove leftover debug console.log statements + bootstrap backend testing](https://github.com/OpenLake/Student_Database_COSA/pull/266) | 2026-08-13 |
 | [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [fix: allow alphanumeric student ID in registration form](https://github.com/OpenLake/Student_Database_COSA/pull/257) | 2026-08-13 |
