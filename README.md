@@ -61,7 +61,6 @@ Merged PRs into other people's production codebases: observability, AI gateways,
 
 ## Selected work
 
-Tag a repo `flagship` on GitHub and it shows up here on the next daily run. No hand-editing this file.
 
 <!-- WORK:START -->
 
