@@ -30,14 +30,17 @@ Merged PRs into other people's production codebases: observability, AI gateways,
 
 <div align="center">
 
-![MERGED UPSTREAM](https://img.shields.io/badge/MERGED_UPSTREAM-16_PRs-B5532F?style=for-the-badge&labelColor=1C1812) ![PROD REPOS](https://img.shields.io/badge/PROD_REPOS-12-C8922F?style=for-the-badge&labelColor=1C1812) ![diffprompt](https://img.shields.io/badge/diffprompt-LIVE_ON_PyPI-3F5A36?style=for-the-badge&labelColor=1C1812)
+![MERGED UPSTREAM](https://img.shields.io/badge/MERGED_UPSTREAM-19_PRs-B5532F?style=for-the-badge&labelColor=1C1812) ![PROD REPOS](https://img.shields.io/badge/PROD_REPOS-12-C8922F?style=for-the-badge&labelColor=1C1812) ![diffprompt](https://img.shields.io/badge/diffprompt-LIVE_ON_PyPI-3F5A36?style=for-the-badge&labelColor=1C1812)
 
-**In review:** [garak](https://github.com/NVIDIA/garak) · [Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [shap](https://github.com/shap/shap) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy) · [ragas](https://github.com/vibrantlabsai/ragas)
+**In review:** [garak](https://github.com/NVIDIA/garak) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [shap](https://github.com/shap/shap) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy) · [ragas](https://github.com/vibrantlabsai/ragas)
 
 </div>
 
 | Repo | Contribution | Merged |
 |---|---|---|
+| [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [fix: add rate limiting to /auth/login and /auth/register](https://github.com/OpenLake/Student_Database_COSA/pull/268) | 2026-08-22 |
+| [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [fix: profile update no longer trusts a client-supplied userId (IDOR)](https://github.com/OpenLake/Student_Database_COSA/pull/269) | 2026-08-22 |
+| [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [fix: don't leak literal "undefined" into the header when user_id is missing](https://github.com/OpenLake/Student_Database_COSA/pull/267) | 2026-08-22 |
 | [podman-container-tools/podman](https://github.com/podman-container-tools/podman) | [hyperv: add timeout to vsock ready wait](https://github.com/podman-container-tools/podman/pull/29460) | 2026-08-19 |
 | [grpc/grpc](https://github.com/grpc/grpc) | [[Python] fix: remove ghost key in grpc.aio.Metadata.__delitem__ when last value is deleted](https://github.com/grpc/grpc/pull/42974) | 2026-08-13 |
 | [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [chore: remove leftover debug console.log statements + bootstrap backend testing](https://github.com/OpenLake/Student_Database_COSA/pull/266) | 2026-08-13 |
