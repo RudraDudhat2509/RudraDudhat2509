@@ -32,7 +32,7 @@ Merged PRs into other people's production codebases: observability, AI gateways,
 
 ![MERGED UPSTREAM](https://img.shields.io/badge/MERGED_UPSTREAM-19_PRs-B5532F?style=for-the-badge&labelColor=1C1812) ![PROD REPOS](https://img.shields.io/badge/PROD_REPOS-12-C8922F?style=for-the-badge&labelColor=1C1812) ![diffprompt](https://img.shields.io/badge/diffprompt-LIVE_ON_PyPI-3F5A36?style=for-the-badge&labelColor=1C1812)
 
-**In review:** [garak](https://github.com/NVIDIA/garak) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [shap](https://github.com/shap/shap) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy) · [ragas](https://github.com/vibrantlabsai/ragas)
+**In review:** [garak](https://github.com/NVIDIA/garak) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [shap](https://github.com/shap/shap) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy) · [ragas](https://github.com/vibrantlabsai/ragas)
 
 </div>
 
@@ -69,10 +69,10 @@ Merged PRs into other people's production codebases: observability, AI gateways,
 
 | Project | What it does |
 |---|---|
-| **[brok](https://github.com/RudraDudhat2509/brok)** | An MCP that reviews your architecture, estimates real capacity from cited numbers, surfaces the trade-offs you are making, and roasts bad design in a dry voice. Deterministic engine, no model, runs free and local. |
-| **[diffprompt](https://github.com/RudraDudhat2509/diffprompt)** | git diff for prompt engineers |
+| **[OptiQuant](https://github.com/RudraDudhat2509/OptiQuant)** | AI-powered quantitative trading platform - ensemble ML (LightGBM + CatBoost + RF), backtesting engine, and live signal scoring. Previously deployed on AWS EC2, now on Streamlit Cloud. |
 | **[cacheguard](https://github.com/RudraDudhat2509/cacheguard)** | Drop-in safety layer that stops semantic caches from silently returning wrong answers — with the first independent open benchmark of semantic-cache false-hit rates. Free, local, LiteLLM + OpenTelemetry. |
-| **[OptiQuant](https://github.com/RudraDudhat2509/OptiQuant)** | AI-powered quantitative trading platform — ensemble ML (LightGBM + CatBoost + RF), backtesting engine, and live signal scoring. Deployed on AWS EC2 fornerly, now deployed on streamlit cloud |
+| **[diffprompt](https://github.com/RudraDudhat2509/diffprompt)** | git diff for prompt engineers - catch behavioural prompt regressions before they ship. |
+| **[brok](https://github.com/RudraDudhat2509/brok)** | An MCP that reviews your architecture, estimates real capacity from cited numbers, surfaces the trade-offs you are making, and roasts bad design in a dry voice. Deterministic engine, no model, runs free and local. |
 
 <!-- WORK:END -->
 
