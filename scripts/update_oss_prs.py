@@ -20,12 +20,6 @@ START = "<!-- OSS:START -->"
 END = "<!-- OSS:END -->"
 SEARCH = "https://api.github.com/search/issues"
 
-INK = "1C1812"        # label bg
-TERRACOTTA = "B5532F"
-BRASS = "C8922F"
-OLIVE = "3F5A36"
-
-
 def gh_get(url):
     req = urllib.request.Request(url)
     req.add_header("Accept", "application/vnd.github+json")
@@ -85,13 +79,6 @@ def externally_merged_commit(item):
     return None
 
 
-def badge(label, message, color):
-    enc = lambda s: s.replace("-", "--").replace("_", "__").replace(" ", "_")
-    url = (f"https://img.shields.io/badge/{enc(label)}-{enc(message)}-{color}"
-           f"?style=for-the-badge&labelColor={INK}")
-    return f"![{label}]({url})"
-
-
 def merged_upstream():
     """Every PR of mine that landed in someone else's repo."""
     merged = [i for i in search("is:merged") if is_external(i)]
@@ -123,15 +110,10 @@ def build_block():
     repos = sorted({repo_of(i) for i in merged})
     review_repos = sorted({repo_of(i) for i in open_prs})
 
-    # The merged-PR and repo counts are stamped into the banner by
-    # render_dossier, so repeating them here as badges would just say the same
-    # thing twice on one screen.
-    badges = badge("diffprompt", "LIVE ON PyPI", OLIVE)
-
     review = ""
     if review_repos:
         chips = " · ".join(f"[{r.split('/')[1]}](https://github.com/{r})" for r in review_repos)
-        review = f"\n\n**In review:** {chips}"
+        review = f"**In review:** {chips}"
 
     rows = sorted(merged, key=lambda i: i.get("closed_at") or "", reverse=True)
     table_rows = "\n".join(
@@ -142,10 +124,8 @@ def build_block():
     )
     table = "| Repo | Contribution | Merged |\n|---|---|---|\n" + table_rows
 
-    return (
-        f'<div align="center">\n\n{badges}{review}\n\n</div>\n\n{table}'
-        if rows else f'<div align="center">\n\n{badges}\n\n</div>'
-    )
+    header = f'<div align="center">\n\n{review}\n\n</div>\n\n' if review else ""
+    return f"{header}{table}" if rows else header.rstrip()
 
 
 def inject(block):

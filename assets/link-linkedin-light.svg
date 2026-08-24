@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="34"
+     viewBox="0 0 106 34" role="img" aria-label="LINKEDIN">
+  <rect x="1" y="1" width="104" height="32" fill="#E9E3D3"
+        stroke="#C6BCA3" stroke-width="1"/>
+  <text x="53" y="22" text-anchor="middle"
+        style="font: 700 12px 'Courier New', 'Nimbus Mono PS', 'DejaVu Sans Mono', monospace; fill: #23201A; letter-spacing: 1.9px;">LINKEDIN</text>
+</svg>
