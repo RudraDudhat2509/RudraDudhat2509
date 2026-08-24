@@ -26,11 +26,9 @@ START = "<!-- BANNER:START -->"
 END = "<!-- BANNER:END -->"
 LINKS_START = "<!-- LINKS:START -->"
 LINKS_END = "<!-- LINKS:END -->"
-APPENDIX_START = "<!-- APPENDIX:START -->"
-APPENDIX_END = "<!-- APPENDIX:END -->"
 RAW = "https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets"
 
-W, H = 1000, 364
+W, H = 1000, 394
 
 # The rule stops short of the stamp rather than running under it. The stamp is
 # rotated, so its corners reach further left than its bounding box suggests.
@@ -65,9 +63,12 @@ LINKS = [
     ("pypi", "DIFFPROMPT ON PyPI", "https://pypi.org/project/diffprompt/", False),
 ]
 
+# Deliberately excludes anything already named in PRIORS. The two rows sit
+# next to each other, and repeating opentelemetry across both reads as a
+# stutter rather than as emphasis.
 STACK = [
     "python", "pytorch", "fastapi", "langgraph",
-    "opentelemetry", "postgres", "docker", "aws",
+    "postgres", "redis", "docker", "aws",
 ]
 
 CLOSING = "PEER REVIEWED: FUNNY · DELUSIONAL · AMBITIOUS · FUELED BY TEA, NOT COFFEE"
@@ -76,6 +77,7 @@ ROWS = [
     ("SUBJECT", "builds AI agents, then breaks them"),
     ("METHOD", "agentic attack surfaces · observability · evals"),
     ("PRIORS", "opentelemetry · mlflow · litellm · kedro · grpc"),
+    ("TOOLING", " · ".join(STACK)),
     ("LOCATION", "IIT Bhilai · "),          # redaction bar lands after this
     ("STATUS", "available, winter 2026"),
 ]
@@ -102,8 +104,11 @@ def render(theme: str, merged: int, repos: int) -> str:
         )
 
     # The redaction bar sits over where the rest of the LOCATION line would be.
-    redaction_y = row_y + 3 * row_gap - 13
-    redaction_x = 196 + len(ROWS[3][1]) * 9.6
+    # Found by label rather than by index, so inserting a row above it cannot
+    # silently slide the bar onto a different line.
+    loc = next(i for i, (label, _) in enumerate(ROWS) if label == "LOCATION")
+    redaction_y = row_y + loc * row_gap - 13
+    redaction_x = 196 + len(ROWS[loc][1]) * 9.6
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}"
      viewBox="0 0 {W} {H}" role="img"
@@ -194,35 +199,6 @@ def render_chip(theme: str, label: str, accent: bool) -> str:
 '''
 
 
-def render_appendix(theme: str) -> str:
-    """The stack, set as an appendix page rather than a row of shields."""
-    c = THEMES[theme]
-    w, h = 1000, 132
-    tools = " · ".join(STACK)
-
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}"
-     viewBox="0 0 {w} {h}" role="img"
-     aria-label="Appendix A, stack: {', '.join(STACK)}.">
-  <defs>
-    <filter id="grain-a" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="4"/>
-      <feColorMatrix type="saturate" values="0"/>
-    </filter>
-  </defs>
-  <rect width="{w}" height="{h}" fill="{c['paper']}"/>
-  <rect width="{w}" height="{h}" filter="url(#grain-a)"
-        fill="{c['grain']}" opacity="{c['grain_opacity']}"/>
-  <rect x="14" y="14" width="{w - 28}" height="{h - 28}"
-        fill="none" stroke="{c['border']}" stroke-width="1"/>
-
-  <text x="52" y="52" style="font: 500 12px {MONO}; fill: {c['muted']}; letter-spacing: 3.4px;">APPENDIX A &#183; STACK</text>
-  <text x="52" y="80" style="font: 500 14px {MONO}; fill: {c['ink']};">{esc(tools)}</text>
-  <line x1="52" y1="98" x2="{w - 52}" y2="98" stroke="{c['border']}" stroke-width="1"/>
-  <text x="52" y="{h - 22}" style="font: 500 11px {MONO}; fill: {c['muted']}; letter-spacing: 1.6px;">{esc(CLOSING)}</text>
-</svg>
-'''
-
-
 def banner_markup(merged: int, repos: int) -> str:
     """The <picture> block, written with absolute raw URLs.
 
@@ -257,14 +233,6 @@ def links_markup(version: str) -> str:
     return "\n".join(chips)
 
 
-def appendix_markup(version: str) -> str:
-    return (f'<picture>\n'
-            f'  <source media="(prefers-color-scheme: dark)" srcset="{RAW}/appendix-dark.svg?v={version}">\n'
-            f'  <img src="{RAW}/appendix-light.svg?v={version}" '
-            f'alt="Appendix A, stack: {", ".join(STACK)}." width="100%">\n'
-            f'</picture>')
-
-
 def inject(start: str, end: str, markup: str, what: str) -> None:
     with open(README, encoding="utf-8") as f:
         content = f.read()
@@ -291,16 +259,14 @@ def main() -> None:
 
     for theme in THEMES:
         write(f"assets/dossier-{theme}.svg", render(theme, merged, repos))
-        write(f"assets/appendix-{theme}.svg", render_appendix(theme))
         for name, label, _, accent in LINKS:
             write(f"assets/link-{name}-{theme}.svg", render_chip(theme, label, accent))
 
-    print(f"wrote banner, appendix and {len(LINKS)} chips per theme "
+    print(f"wrote banner and {len(LINKS)} chips per theme "
           f"({merged} merged, {repos} repos)")
 
     inject(START, END, banner_markup(merged, repos), "banner")
     inject(LINKS_START, LINKS_END, links_markup(version), "links")
-    inject(APPENDIX_START, APPENDIX_END, appendix_markup(version), "appendix")
 
 
 if __name__ == "__main__":

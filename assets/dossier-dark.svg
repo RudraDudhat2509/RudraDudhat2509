@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="364"
-     viewBox="0 0 1000 364" role="img"
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="394"
+     viewBox="0 0 1000 394" role="img"
      aria-label="Case file on Rudra Dudhat, AI product engineer. 19 patches merged into 12 production repositories. Available winter 2026.">
   <defs>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
@@ -38,19 +38,19 @@
     }
   </style>
 
-  <rect width="1000" height="364" fill="#14120E"/>
-  <rect width="1000" height="364" filter="url(#grain)"
+  <rect width="1000" height="394" fill="#14120E"/>
+  <rect width="1000" height="394" filter="url(#grain)"
         fill="#C9B98C" opacity="0.07"/>
-  <rect x="14" y="14" width="972" height="336"
+  <rect x="14" y="14" width="972" height="366"
         fill="none" stroke="#342E22" stroke-width="1"/>
 
   <text x="52" y="86" class="name">R. DUDHAT</text>
   <text x="55" y="112" class="file">FILE 2509 &#183; AI PRODUCT ENGINEER</text>
   <line x1="52" y1="132" x2="726" y2="132" stroke="#6E6350" stroke-width="2"/>
 
-  <g class="row" style="animation-delay:0.00s"><text x="52" y="172" class="lbl">SUBJECT</text><text x="196" y="172" class="val">builds AI agents, then breaks them</text></g><g class="row" style="animation-delay:0.05s"><text x="52" y="202" class="lbl">METHOD</text><text x="196" y="202" class="val">agentic attack surfaces · observability · evals</text></g><g class="row" style="animation-delay:0.10s"><text x="52" y="232" class="lbl">PRIORS</text><text x="196" y="232" class="val">opentelemetry · mlflow · litellm · kedro · grpc</text></g><g class="row" style="animation-delay:0.15s"><text x="52" y="262" class="lbl">LOCATION</text><text x="196" y="262" class="val">IIT Bhilai · </text></g><g class="row" style="animation-delay:0.20s"><text x="52" y="292" class="lbl">STATUS</text><text x="196" y="292" class="val">available, winter 2026</text></g>
+  <g class="row" style="animation-delay:0.00s"><text x="52" y="172" class="lbl">SUBJECT</text><text x="196" y="172" class="val">builds AI agents, then breaks them</text></g><g class="row" style="animation-delay:0.05s"><text x="52" y="202" class="lbl">METHOD</text><text x="196" y="202" class="val">agentic attack surfaces · observability · evals</text></g><g class="row" style="animation-delay:0.10s"><text x="52" y="232" class="lbl">PRIORS</text><text x="196" y="232" class="val">opentelemetry · mlflow · litellm · kedro · grpc</text></g><g class="row" style="animation-delay:0.15s"><text x="52" y="262" class="lbl">TOOLING</text><text x="196" y="262" class="val">python · pytorch · fastapi · langgraph · postgres · redis · docker · aws</text></g><g class="row" style="animation-delay:0.20s"><text x="52" y="292" class="lbl">LOCATION</text><text x="196" y="292" class="val">IIT Bhilai · </text></g><g class="row" style="animation-delay:0.25s"><text x="52" y="322" class="lbl">STATUS</text><text x="196" y="322" class="val">available, winter 2026</text></g>
 
-  <rect class="redact" x="321" y="249" width="132" height="17"
+  <rect class="redact" x="321" y="279" width="132" height="17"
         fill="#E6DCC4"/>
 
   <g class="stamp">
@@ -61,5 +61,5 @@
     <text x="848" y="136" class="stamp-t" text-anchor="middle">12 PROD REPOS</text>
   </g>
 
-  <text x="52" y="326" class="foot">EVIDENCE ATTACHED BELOW &#183; UPDATED DAILY BY CI</text>
+  <text x="52" y="356" class="foot">EVIDENCE ATTACHED BELOW &#183; UPDATED DAILY BY CI</text>
 </svg>
