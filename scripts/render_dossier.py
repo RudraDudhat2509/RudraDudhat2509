@@ -24,6 +24,10 @@ from update_oss_prs import build_counts  # noqa: E402
 README = "README.md"
 START = "<!-- BANNER:START -->"
 END = "<!-- BANNER:END -->"
+LINKS_START = "<!-- LINKS:START -->"
+LINKS_END = "<!-- LINKS:END -->"
+APPENDIX_START = "<!-- APPENDIX:START -->"
+APPENDIX_END = "<!-- APPENDIX:END -->"
 RAW = "https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets"
 
 W, H = 1000, 364
@@ -48,6 +52,25 @@ THEMES = {
         "stamp": "#C4593B", "rule": "#6E6350",
     },
 }
+
+# Link chips, drawn as file tabs rather than rounded shields. Each one is its
+# own SVG because an SVG loaded through <img> is inert: internal <a> elements
+# never fire, so a single combined strip could only ever carry one link.
+LINKS = [
+    ("portfolio", "PORTFOLIO", "https://rudradudhat2509.github.io/", True),
+    ("notes", "FIELD NOTES", "https://rudradudhat2509.github.io/notes.html", False),
+    ("linkedin", "LINKEDIN", "https://www.linkedin.com/in/rdudhat-iitbhilai/", False),
+    ("x", "X / @RUDRABUILDS", "https://twitter.com/rudrabuilds", False),
+    ("email", "EMAIL", "mailto:contact.rdudhat@gmail.com", False),
+    ("pypi", "DIFFPROMPT ON PyPI", "https://pypi.org/project/diffprompt/", False),
+]
+
+STACK = [
+    "python", "pytorch", "fastapi", "langgraph",
+    "opentelemetry", "postgres", "docker", "aws",
+]
+
+CLOSING = "PEER REVIEWED: FUNNY · DELUSIONAL · AMBITIOUS · FUELED BY TEA, NOT COFFEE"
 
 ROWS = [
     ("SUBJECT", "builds AI agents, then breaks them"),
@@ -150,6 +173,56 @@ def render(theme: str, merged: int, repos: int) -> str:
 '''
 
 
+# Courier advances at 0.6em; the tracking is added on top of that.
+CHAR_W = 12 * 0.6 + 1.9
+CHIP_H = 34
+
+
+def render_chip(theme: str, label: str, accent: bool) -> str:
+    c = THEMES[theme]
+    stroke = c["stamp"] if accent else c["border"]
+    fill = c["stamp"] if accent else c["ink"]
+    w = int(len(label) * CHAR_W + 34)
+
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{CHIP_H}"
+     viewBox="0 0 {w} {CHIP_H}" role="img" aria-label="{label}">
+  <rect x="1" y="1" width="{w - 2}" height="{CHIP_H - 2}" fill="{c['paper']}"
+        stroke="{stroke}" stroke-width="{'2' if accent else '1'}"/>
+  <text x="{w / 2:.0f}" y="22" text-anchor="middle"
+        style="font: 700 12px {MONO}; fill: {fill}; letter-spacing: 1.9px;">{esc(label)}</text>
+</svg>
+'''
+
+
+def render_appendix(theme: str) -> str:
+    """The stack, set as an appendix page rather than a row of shields."""
+    c = THEMES[theme]
+    w, h = 1000, 132
+    tools = " · ".join(STACK)
+
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}"
+     viewBox="0 0 {w} {h}" role="img"
+     aria-label="Appendix A, stack: {', '.join(STACK)}.">
+  <defs>
+    <filter id="grain-a" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="4"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="{w}" height="{h}" fill="{c['paper']}"/>
+  <rect width="{w}" height="{h}" filter="url(#grain-a)"
+        fill="{c['grain']}" opacity="{c['grain_opacity']}"/>
+  <rect x="14" y="14" width="{w - 28}" height="{h - 28}"
+        fill="none" stroke="{c['border']}" stroke-width="1"/>
+
+  <text x="52" y="52" style="font: 500 12px {MONO}; fill: {c['muted']}; letter-spacing: 3.4px;">APPENDIX A &#183; STACK</text>
+  <text x="52" y="80" style="font: 500 14px {MONO}; fill: {c['ink']};">{esc(tools)}</text>
+  <line x1="52" y1="98" x2="{w - 52}" y2="98" stroke="{c['border']}" stroke-width="1"/>
+  <text x="52" y="{h - 22}" style="font: 500 11px {MONO}; fill: {c['muted']}; letter-spacing: 1.6px;">{esc(CLOSING)}</text>
+</svg>
+'''
+
+
 def banner_markup(merged: int, repos: int) -> str:
     """The <picture> block, written with absolute raw URLs.
 
@@ -171,29 +244,63 @@ def banner_markup(merged: int, repos: int) -> str:
 </a>'''
 
 
-def inject_banner(markup: str) -> None:
+def links_markup(version: str) -> str:
+    chips = []
+    for name, label, href, _ in LINKS:
+        chips.append(
+            f'<a href="{href}">'
+            f'<picture>'
+            f'<source media="(prefers-color-scheme: dark)" srcset="{RAW}/link-{name}-dark.svg?v={version}">'
+            f'<img src="{RAW}/link-{name}-light.svg?v={version}" alt="{label}" height="34">'
+            f'</picture></a>'
+        )
+    return "\n".join(chips)
+
+
+def appendix_markup(version: str) -> str:
+    return (f'<picture>\n'
+            f'  <source media="(prefers-color-scheme: dark)" srcset="{RAW}/appendix-dark.svg?v={version}">\n'
+            f'  <img src="{RAW}/appendix-light.svg?v={version}" '
+            f'alt="Appendix A, stack: {", ".join(STACK)}." width="100%">\n'
+            f'</picture>')
+
+
+def inject(start: str, end: str, markup: str, what: str) -> None:
     with open(README, encoding="utf-8") as f:
         content = f.read()
-    wrapped = f"{START}\n\n{markup}\n\n{END}"
-    new = re.sub(re.escape(START) + r".*?" + re.escape(END), wrapped, content,
+    wrapped = f"{start}\n\n{markup}\n\n{end}"
+    new = re.sub(re.escape(start) + r".*?" + re.escape(end), wrapped, content,
                  flags=re.DOTALL)
     if new == content:
-        print("banner unchanged")
+        print(f"{what} unchanged")
         return
     with open(README, "w", encoding="utf-8", newline="\n") as f:
         f.write(new)
-    print("banner updated")
+    print(f"{what} updated")
+
+
+def write(path: str, body: str) -> None:
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(body)
 
 
 def main() -> None:
     merged, repos = build_counts()
+    version = f"{merged}-{repos}"
     os.makedirs("assets", exist_ok=True)
+
     for theme in THEMES:
-        path = f"assets/dossier-{theme}.svg"
-        with open(path, "w", encoding="utf-8", newline="\n") as f:
-            f.write(render(theme, merged, repos))
-        print(f"wrote {path}  ({merged} merged, {repos} repos)")
-    inject_banner(banner_markup(merged, repos))
+        write(f"assets/dossier-{theme}.svg", render(theme, merged, repos))
+        write(f"assets/appendix-{theme}.svg", render_appendix(theme))
+        for name, label, _, accent in LINKS:
+            write(f"assets/link-{name}-{theme}.svg", render_chip(theme, label, accent))
+
+    print(f"wrote banner, appendix and {len(LINKS)} chips per theme "
+          f"({merged} merged, {repos} repos)")
+
+    inject(START, END, banner_markup(merged, repos), "banner")
+    inject(LINKS_START, LINKS_END, links_markup(version), "links")
+    inject(APPENDIX_START, APPENDIX_END, appendix_markup(version), "appendix")
 
 
 if __name__ == "__main__":

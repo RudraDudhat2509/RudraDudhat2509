@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="115" height="34"
+     viewBox="0 0 115 34" role="img" aria-label="PORTFOLIO">
+  <rect x="1" y="1" width="113" height="32" fill="#E9E3D3"
+        stroke="#A03826" stroke-width="2"/>
+  <text x="58" y="22" text-anchor="middle"
+        style="font: 700 12px 'Courier New', 'Nimbus Mono PS', 'DejaVu Sans Mono', monospace; fill: #A03826; letter-spacing: 1.9px;">PORTFOLIO</text>
+</svg>

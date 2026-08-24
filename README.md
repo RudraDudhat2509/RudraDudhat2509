@@ -12,11 +12,16 @@
 
 <!-- BANNER:END -->
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-B5532F?style=for-the-badge&logoColor=F7F1E5)](https://rudradudhat2509.github.io/)
-[![Field Notes](https://img.shields.io/badge/FIELD_NOTES-3F5A36?style=for-the-badge&logoColor=F7F1E5)](https://rudradudhat2509.github.io/notes.html)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-1C1812?style=for-the-badge&logo=linkedin&logoColor=F7F1E5)](https://www.linkedin.com/in/rdudhat-iitbhilai/)
-[![X](https://img.shields.io/badge/X-1C1812?style=for-the-badge&logo=x&logoColor=F7F1E5)](https://twitter.com/rudrabuilds)
-[![Email](https://img.shields.io/badge/EMAIL-1C1812?style=for-the-badge&logo=gmail&logoColor=F7F1E5)](mailto:contact.rdudhat@gmail.com)
+<!-- LINKS:START -->
+
+<a href="https://rudradudhat2509.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-dark.svg?v=19-12"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-light.svg?v=19-12" alt="PORTFOLIO" height="34"></picture></a>
+<a href="https://rudradudhat2509.github.io/notes.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-dark.svg?v=19-12"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-light.svg?v=19-12" alt="FIELD NOTES" height="34"></picture></a>
+<a href="https://www.linkedin.com/in/rdudhat-iitbhilai/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-dark.svg?v=19-12"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-light.svg?v=19-12" alt="LINKEDIN" height="34"></picture></a>
+<a href="https://twitter.com/rudrabuilds"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-dark.svg?v=19-12"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-light.svg?v=19-12" alt="X / @RUDRABUILDS" height="34"></picture></a>
+<a href="mailto:contact.rdudhat@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-dark.svg?v=19-12"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-light.svg?v=19-12" alt="EMAIL" height="34"></picture></a>
+<a href="https://pypi.org/project/diffprompt/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-dark.svg?v=19-12"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-light.svg?v=19-12" alt="DIFFPROMPT ON PyPI" height="34"></picture></a>
+
+<!-- LINKS:END -->
 
 </div>
 
@@ -29,8 +34,6 @@ Merged into other people's production codebases: observability, AI gateways, eva
 <!-- OSS:START -->
 
 <div align="center">
-
-![diffprompt](https://img.shields.io/badge/diffprompt-LIVE_ON_PyPI-3F5A36?style=for-the-badge&labelColor=1C1812)
 
 **In review:** [garak](https://github.com/NVIDIA/garak) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [shap](https://github.com/shap/shap) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy) · [ragas](https://github.com/vibrantlabsai/ragas)
 
@@ -79,28 +82,19 @@ Tag a repo `flagship` on GitHub and it shows up here on the next daily run. No h
 
 ---
 
-<details>
-<summary><b>Stack</b></summary>
-
-<br>
-
-![Python](https://img.shields.io/badge/Python-1C1812?style=for-the-badge&logo=python&logoColor=C8922F)
-![FastAPI](https://img.shields.io/badge/FastAPI-1C1812?style=for-the-badge&logo=fastapi&logoColor=C8922F)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C1812?style=for-the-badge&logoColor=C8922F)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-1C1812?style=for-the-badge&logo=opentelemetry&logoColor=C8922F)
-![PyTorch](https://img.shields.io/badge/PyTorch-1C1812?style=for-the-badge&logo=pytorch&logoColor=C8922F)
-![Docker](https://img.shields.io/badge/Docker-1C1812?style=for-the-badge&logo=docker&logoColor=C8922F)
-![Postgres](https://img.shields.io/badge/PostgreSQL-1C1812?style=for-the-badge&logo=postgresql&logoColor=C8922F)
-![AWS](https://img.shields.io/badge/AWS-1C1812?style=for-the-badge&logo=amazonaws&logoColor=C8922F)
-
-</details>
-
 ## The rest
 
 Working notes that publish themselves straight from a repo: **[Field Notes](https://rudradudhat2509.github.io/notes.html)** (push a `.txt`, it shows up typeset). Built-for-the-plot side quests: **[ragbait](https://github.com/RudraDudhat2509/ragbait)**, **[iceman](https://github.com/RudraDudhat2509/iceman)**, **[ctxbridge](https://github.com/RudraDudhat2509/ctxbridge)**.
 
 <div align="center">
 
-**Peer reviewed: funny · delusional · ambitious. Fueled by tea, not coffee.**
+<!-- APPENDIX:START -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/appendix-dark.svg?v=19-12">
+  <img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/appendix-light.svg?v=19-12" alt="Appendix A, stack: python, pytorch, fastapi, langgraph, opentelemetry, postgres, docker, aws." width="100%">
+</picture>
+
+<!-- APPENDIX:END -->
 
 </div>

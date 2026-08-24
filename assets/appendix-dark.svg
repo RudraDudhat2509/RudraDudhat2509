@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="132"
+     viewBox="0 0 1000 132" role="img"
+     aria-label="Appendix A, stack: python, pytorch, fastapi, langgraph, opentelemetry, postgres, docker, aws.">
+  <defs>
+    <filter id="grain-a" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="4"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="132" fill="#14120E"/>
+  <rect width="1000" height="132" filter="url(#grain-a)"
+        fill="#C9B98C" opacity="0.07"/>
+  <rect x="14" y="14" width="972" height="104"
+        fill="none" stroke="#342E22" stroke-width="1"/>
+
+  <text x="52" y="52" style="font: 500 12px 'Courier New', 'Nimbus Mono PS', 'DejaVu Sans Mono', monospace; fill: #8B8068; letter-spacing: 3.4px;">APPENDIX A &#183; STACK</text>
+  <text x="52" y="80" style="font: 500 14px 'Courier New', 'Nimbus Mono PS', 'DejaVu Sans Mono', monospace; fill: #E6DCC4;">python · pytorch · fastapi · langgraph · opentelemetry · postgres · docker · aws</text>
+  <line x1="52" y1="98" x2="948" y2="98" stroke="#342E22" stroke-width="1"/>
+  <text x="52" y="110" style="font: 500 11px 'Courier New', 'Nimbus Mono PS', 'DejaVu Sans Mono', monospace; fill: #8B8068; letter-spacing: 1.6px;">PEER REVIEWED: FUNNY · DELUSIONAL · AMBITIOUS · FUELED BY TEA, NOT COFFEE</text>
+</svg>
