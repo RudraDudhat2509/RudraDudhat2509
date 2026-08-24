@@ -88,13 +88,6 @@ Working notes that publish themselves straight from a repo: **[Field Notes](http
 
 <div align="center">
 
-<!-- APPENDIX:START -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/appendix-dark.svg?v=19-12">
-  <img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/appendix-light.svg?v=19-12" alt="Appendix A, stack: python, pytorch, fastapi, langgraph, opentelemetry, postgres, docker, aws." width="100%">
-</picture>
-
-<!-- APPENDIX:END -->
+**Peer reviewed: funny · delusional · ambitious. Fueled by tea, not coffee.**
 
 </div>
