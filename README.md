@@ -1,12 +1,16 @@
 <div align="center">
 
+<!-- BANNER:START -->
+
 <a href="https://rudradudhat2509.github.io/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/dossier-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/dossier-light.svg">
-    <img src="assets/dossier-light.svg" alt="Case file on Rudra Dudhat, AI product engineer. Patches merged upstream into production repositories. Available winter 2026." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-dark.svg?v=19-12">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=19-12">
+    <img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=19-12" alt="Case file on Rudra Dudhat, AI product engineer. 19 patches merged into 12 production repositories. Available winter 2026." width="100%">
   </picture>
 </a>
+
+<!-- BANNER:END -->
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-B5532F?style=for-the-badge&logoColor=F7F1E5)](https://rudradudhat2509.github.io/)
 [![Field Notes](https://img.shields.io/badge/FIELD_NOTES-3F5A36?style=for-the-badge&logoColor=F7F1E5)](https://rudradudhat2509.github.io/notes.html)

@@ -14,11 +14,17 @@ Constraints this file is written against:
     faces that already exist on the reader's machine.
 """
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from update_oss_prs import build_counts  # noqa: E402
+
+README = "README.md"
+START = "<!-- BANNER:START -->"
+END = "<!-- BANNER:END -->"
+RAW = "https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets"
 
 W, H = 1000, 364
 
@@ -144,6 +150,41 @@ def render(theme: str, merged: int, repos: int) -> str:
 '''
 
 
+def banner_markup(merged: int, repos: int) -> str:
+    """The <picture> block, written with absolute raw URLs.
+
+    Relative paths are NOT rewritten inside srcset, so `assets/...` renders as
+    a dead link and the banner silently disappears. Absolute raw URLs resolve,
+    but GitHub proxies and caches them through camo, and the URL alone would
+    never change when the stamped count does. The ?v token changes exactly when
+    the numbers change, which is the only time the cache needs busting.
+    """
+    version = f"{merged}-{repos}"
+    alt = (f"Case file on Rudra Dudhat, AI product engineer. {merged} patches "
+           f"merged into {repos} production repositories. Available winter 2026.")
+    return f'''<a href="https://rudradudhat2509.github.io/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="{RAW}/dossier-dark.svg?v={version}">
+    <source media="(prefers-color-scheme: light)" srcset="{RAW}/dossier-light.svg?v={version}">
+    <img src="{RAW}/dossier-light.svg?v={version}" alt="{alt}" width="100%">
+  </picture>
+</a>'''
+
+
+def inject_banner(markup: str) -> None:
+    with open(README, encoding="utf-8") as f:
+        content = f.read()
+    wrapped = f"{START}\n\n{markup}\n\n{END}"
+    new = re.sub(re.escape(START) + r".*?" + re.escape(END), wrapped, content,
+                 flags=re.DOTALL)
+    if new == content:
+        print("banner unchanged")
+        return
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write(new)
+    print("banner updated")
+
+
 def main() -> None:
     merged, repos = build_counts()
     os.makedirs("assets", exist_ok=True)
@@ -152,6 +193,7 @@ def main() -> None:
         with open(path, "w", encoding="utf-8", newline="\n") as f:
             f.write(render(theme, merged, repos))
         print(f"wrote {path}  ({merged} merged, {repos} repos)")
+    inject_banner(banner_markup(merged, repos))
 
 
 if __name__ == "__main__":
