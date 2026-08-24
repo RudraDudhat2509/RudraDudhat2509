@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="364"
+     viewBox="0 0 1000 364" role="img"
+     aria-label="Case file on Rudra Dudhat, AI product engineer. 19 patches merged into 12 production repositories. Available winter 2026.">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="7"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <style>
+    .lbl { font: 500 12px 'Courier New', 'Nimbus Mono PS', 'DejaVu Sans Mono', monospace; fill: #6B6252; letter-spacing: 1.6px; }
+    .val { font: 500 14px 'Courier New', 'Nimbus Mono PS', 'DejaVu Sans Mono', monospace; fill: #23201A; }
+    .name { font: 700 46px 'Courier New', 'Nimbus Mono PS', 'DejaVu Sans Mono', monospace; fill: #23201A; letter-spacing: 7px; }
+    .file { font: 500 12px 'Courier New', 'Nimbus Mono PS', 'DejaVu Sans Mono', monospace; fill: #6B6252; letter-spacing: 3.4px; }
+    .foot { font: 500 11px 'Courier New', 'Nimbus Mono PS', 'DejaVu Sans Mono', monospace; fill: #6B6252; letter-spacing: 2px; }
+    .stamp-t { font: 700 13px 'Courier New', 'Nimbus Mono PS', 'DejaVu Sans Mono', monospace; fill: #A03826; letter-spacing: 2.2px; }
+    .stamp-n { font: 700 26px 'Courier New', 'Nimbus Mono PS', 'DejaVu Sans Mono', monospace; fill: #A03826; letter-spacing: 1px; }
+
+    .row { opacity: 0; animation: fade .34s ease-out forwards; }
+    .redact { transform-box: fill-box; transform-origin: left center;
+               transform: scaleX(0); animation: wipe .30s ease-in .34s forwards; }
+    .stamp { transform-box: fill-box; transform-origin: center;
+              opacity: 0; animation: thump .42s cubic-bezier(.2,.9,.3,1.3) .64s forwards; }
+
+    @keyframes fade { to { opacity: 1; } }
+    @keyframes wipe { to { transform: scaleX(1); } }
+    @keyframes thump {
+      0%   { opacity: 0; transform: scale(2.3) rotate(-15deg); }
+      70%  { opacity: 1; transform: scale(.95) rotate(-7deg); }
+      100% { opacity: 1; transform: scale(1) rotate(-7deg); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .row, .redact, .stamp { animation: none; opacity: 1; transform: none; }
+      .stamp { transform: rotate(-7deg); }
+      .redact { transform: scaleX(1); }
+    }
+  </style>
+
+  <rect width="1000" height="364" fill="#E9E3D3"/>
+  <rect width="1000" height="364" filter="url(#grain)"
+        fill="#8C7F5F" opacity="0.10"/>
+  <rect x="14" y="14" width="972" height="336"
+        fill="none" stroke="#C6BCA3" stroke-width="1"/>
+
+  <text x="52" y="86" class="name">R. DUDHAT</text>
+  <text x="55" y="112" class="file">FILE 2509 &#183; AI PRODUCT ENGINEER</text>
+  <line x1="52" y1="132" x2="726" y2="132" stroke="#23201A" stroke-width="2"/>
+
+  <g class="row" style="animation-delay:0.00s"><text x="52" y="172" class="lbl">SUBJECT</text><text x="196" y="172" class="val">builds AI agents, then breaks them</text></g><g class="row" style="animation-delay:0.05s"><text x="52" y="202" class="lbl">METHOD</text><text x="196" y="202" class="val">agentic attack surfaces · observability · evals</text></g><g class="row" style="animation-delay:0.10s"><text x="52" y="232" class="lbl">PRIORS</text><text x="196" y="232" class="val">opentelemetry · mlflow · litellm · kedro · grpc</text></g><g class="row" style="animation-delay:0.15s"><text x="52" y="262" class="lbl">LOCATION</text><text x="196" y="262" class="val">IIT Bhilai · </text></g><g class="row" style="animation-delay:0.20s"><text x="52" y="292" class="lbl">STATUS</text><text x="196" y="292" class="val">available, winter 2026</text></g>
+
+  <rect class="redact" x="321" y="249" width="132" height="17"
+        fill="#23201A"/>
+
+  <g class="stamp">
+    <rect x="750" y="44" width="196" height="106" fill="none"
+          stroke="#A03826" stroke-width="3"/>
+    <text x="848" y="78" class="stamp-t" text-anchor="middle">PATCHES MERGED</text>
+    <text x="848" y="112" class="stamp-n" text-anchor="middle">&#215; 19</text>
+    <text x="848" y="136" class="stamp-t" text-anchor="middle">12 PROD REPOS</text>
+  </g>
+
+  <text x="52" y="326" class="foot">EVIDENCE ATTACHED BELOW &#183; UPDATED DAILY BY CI</text>
+</svg>

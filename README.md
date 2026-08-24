@@ -1,16 +1,16 @@
 <div align="center">
 
+<!-- BANNER:START -->
+
 <a href="https://rudradudhat2509.github.io/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fraunces&weight=700&size=52&color=B5532F&center=true&vCenter=true&width=780&height=90&lines=RUDRA+DUDHAT" alt="Rudra Dudhat" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-dark.svg?v=19-12">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=19-12">
+    <img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=19-12" alt="Case file on Rudra Dudhat, AI product engineer. 19 patches merged into 12 production repositories. Available winter 2026." width="100%">
+  </picture>
 </a>
 
-### I build AI agents, then I break them. Professionally.
-
-Production AI · agents · automations · the 2am debugging nobody posts about.
-
-![IIT Bhilai](https://img.shields.io/badge/DSAI_@_IIT_BHILAI-'28-1C1812?style=for-the-badge&labelColor=1C1812&color=8A7A5C)
-![CGPA](https://img.shields.io/badge/CGPA-9.06-1C1812?style=for-the-badge&labelColor=1C1812&color=8A7A5C)
-![Open](https://img.shields.io/badge/OPEN_TO-WINTER_'26_INTERNSHIPS-B5532F?style=for-the-badge&labelColor=1C1812)
+<!-- BANNER:END -->
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-B5532F?style=for-the-badge&logoColor=F7F1E5)](https://rudradudhat2509.github.io/)
 [![Field Notes](https://img.shields.io/badge/FIELD_NOTES-3F5A36?style=for-the-badge&logoColor=F7F1E5)](https://rudradudhat2509.github.io/notes.html)
@@ -22,15 +22,15 @@ Production AI · agents · automations · the 2am debugging nobody posts about.
 
 ---
 
-##  Shipped upstream
+## Evidence
 
-Merged PRs into other people's production codebases: observability, AI gateways, eval tooling, security scanners. This whole block updates itself daily, because hardcoding your own PRs is embarrassing.
+Merged into other people's production codebases: observability, AI gateways, eval tooling, security scanners. This block rebuilds itself daily, because hardcoding your own PRs is embarrassing.
 
 <!-- OSS:START -->
 
 <div align="center">
 
-![MERGED UPSTREAM](https://img.shields.io/badge/MERGED_UPSTREAM-19_PRs-B5532F?style=for-the-badge&labelColor=1C1812) ![PROD REPOS](https://img.shields.io/badge/PROD_REPOS-12-C8922F?style=for-the-badge&labelColor=1C1812) ![diffprompt](https://img.shields.io/badge/diffprompt-LIVE_ON_PyPI-3F5A36?style=for-the-badge&labelColor=1C1812)
+![diffprompt](https://img.shields.io/badge/diffprompt-LIVE_ON_PyPI-3F5A36?style=for-the-badge&labelColor=1C1812)
 
 **In review:** [garak](https://github.com/NVIDIA/garak) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [shap](https://github.com/shap/shap) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy) · [ragas](https://github.com/vibrantlabsai/ragas)
 
@@ -64,6 +64,7 @@ Merged PRs into other people's production codebases: observability, AI gateways,
 
 ## Selected work
 
+Tag a repo `flagship` on GitHub and it shows up here on the next daily run. No hand-editing this file.
 
 <!-- WORK:START -->
 
@@ -78,7 +79,10 @@ Merged PRs into other people's production codebases: observability, AI gateways,
 
 ---
 
-##  Stack
+<details>
+<summary><b>Stack</b></summary>
+
+<br>
 
 ![Python](https://img.shields.io/badge/Python-1C1812?style=for-the-badge&logo=python&logoColor=C8922F)
 ![FastAPI](https://img.shields.io/badge/FastAPI-1C1812?style=for-the-badge&logo=fastapi&logoColor=C8922F)
@@ -89,9 +93,9 @@ Merged PRs into other people's production codebases: observability, AI gateways,
 ![Postgres](https://img.shields.io/badge/PostgreSQL-1C1812?style=for-the-badge&logo=postgresql&logoColor=C8922F)
 ![AWS](https://img.shields.io/badge/AWS-1C1812?style=for-the-badge&logo=amazonaws&logoColor=C8922F)
 
----
+</details>
 
-##  The rest
+## The rest
 
 Working notes that publish themselves straight from a repo: **[Field Notes](https://rudradudhat2509.github.io/notes.html)** (push a `.txt`, it shows up typeset). Built-for-the-plot side quests: **[ragbait](https://github.com/RudraDudhat2509/ragbait)**, **[iceman](https://github.com/RudraDudhat2509/iceman)**, **[ctxbridge](https://github.com/RudraDudhat2509/ctxbridge)**.
 

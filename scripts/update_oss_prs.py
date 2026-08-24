@@ -92,9 +92,9 @@ def badge(label, message, color):
     return f"![{label}]({url})"
 
 
-def build_block():
+def merged_upstream():
+    """Every PR of mine that landed in someone else's repo."""
     merged = [i for i in search("is:merged") if is_external(i)]
-    open_prs = [i for i in search("is:open") if is_external(i)]
 
     # Closed-but-not-natively-merged external PRs may still have actually
     # landed via an internal sync (see externally_merged_commit). Check each
@@ -103,15 +103,30 @@ def build_block():
     for item in unmerged_closed:
         if externally_merged_commit(item):
             merged.append(item)
+    return merged
+
+
+def build_counts():
+    """(merged PRs, distinct repos) for the banner to stamp.
+
+    Shared with render_dossier so the number on the artwork and the number in
+    the table can never disagree.
+    """
+    merged = merged_upstream()
+    return len(merged), len({repo_of(i) for i in merged})
+
+
+def build_block():
+    merged = merged_upstream()
+    open_prs = [i for i in search("is:open") if is_external(i)]
 
     repos = sorted({repo_of(i) for i in merged})
     review_repos = sorted({repo_of(i) for i in open_prs})
 
-    badges = " ".join([
-        badge("MERGED UPSTREAM", f"{len(merged)} PRs", TERRACOTTA),
-        badge("PROD REPOS", str(len(repos)), BRASS),
-        badge("diffprompt", "LIVE ON PyPI", OLIVE),
-    ])
+    # The merged-PR and repo counts are stamped into the banner by
+    # render_dossier, so repeating them here as badges would just say the same
+    # thing twice on one screen.
+    badges = badge("diffprompt", "LIVE ON PyPI", OLIVE)
 
     review = ""
     if review_repos:
