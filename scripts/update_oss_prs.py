@@ -15,6 +15,13 @@ import re
 import urllib.request
 
 USER = "RudraDudhat2509"
+EMAIL = "contact.rdudhat@gmail.com"
+# PRs someone else opened that I co-authored a commit on. `author:` search only
+# ever matches the person who opened the PR, so these can't be discovered and
+# have to be named. Each one is still verified before it's counted.
+CO_AUTHORED = [
+    "Arize-ai/phoenix#14361",
+]
 README = "README.md"
 START = "<!-- OSS:START -->"
 END = "<!-- OSS:END -->"
@@ -79,6 +86,41 @@ def externally_merged_commit(item):
     return None
 
 
+def co_authored_upstream():
+    """Merged PRs from CO_AUTHORED, shaped like a search result.
+
+    Listing a PR here is a claim, not proof, so each one is checked against the
+    PR's own commits: it must be merged and must carry a Co-authored-by trailer
+    for EMAIL. A wrong number or a PR I didn't actually work on is dropped
+    rather than silently inflating the count.
+    """
+    items = []
+    for ref in CO_AUTHORED:
+        repo, _, number = ref.partition("#")
+        pr = gh_get(f"https://api.github.com/repos/{repo}/pulls/{number}")
+        if not pr.get("merged_at"):
+            continue
+        commits = gh_get(
+            f"https://api.github.com/repos/{repo}/pulls/{number}/commits?per_page=100"
+        )
+        trailer = f"<{EMAIL}>".lower()
+        mine = any(
+            line.lower().startswith("co-authored-by:") and trailer in line.lower()
+            for commit in commits
+            for line in commit["commit"]["message"].splitlines()
+        )
+        if not mine:
+            continue
+        items.append({
+            "title": pr["title"],
+            "html_url": pr["html_url"],
+            "repository_url": f"https://api.github.com/repos/{repo}",
+            "closed_at": pr["merged_at"],
+            "number": pr["number"],
+        })
+    return items
+
+
 def merged_upstream():
     """Every PR of mine that landed in someone else's repo."""
     merged = [i for i in search("is:merged") if is_external(i)]
@@ -90,6 +132,8 @@ def merged_upstream():
     for item in unmerged_closed:
         if externally_merged_commit(item):
             merged.append(item)
+
+    merged.extend(i for i in co_authored_upstream() if is_external(i))
     return merged
 
 
