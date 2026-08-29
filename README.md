@@ -4,9 +4,9 @@
 
 <a href="https://rudradudhat2509.github.io/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-dark.svg?v=20-12">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=20-12">
-    <img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=20-12" alt="Case file on Rudra Dudhat, AI product engineer. 20 patches merged into 12 production repositories. Available winter 2026." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-dark.svg?v=21-13">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=21-13">
+    <img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=21-13" alt="Case file on Rudra Dudhat, AI product engineer. 21 patches merged into 13 production repositories. Available winter 2026." width="100%">
   </picture>
 </a>
 
@@ -14,12 +14,12 @@
 
 <!-- LINKS:START -->
 
-<a href="https://rudradudhat2509.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-dark.svg?v=20-12"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-light.svg?v=20-12" alt="PORTFOLIO" height="34"></picture></a>
-<a href="https://rudradudhat2509.github.io/notes.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-dark.svg?v=20-12"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-light.svg?v=20-12" alt="FIELD NOTES" height="34"></picture></a>
-<a href="https://www.linkedin.com/in/rdudhat-iitbhilai/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-dark.svg?v=20-12"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-light.svg?v=20-12" alt="LINKEDIN" height="34"></picture></a>
-<a href="https://twitter.com/rudrabuilds"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-dark.svg?v=20-12"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-light.svg?v=20-12" alt="X / @RUDRABUILDS" height="34"></picture></a>
-<a href="mailto:contact.rdudhat@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-dark.svg?v=20-12"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-light.svg?v=20-12" alt="EMAIL" height="34"></picture></a>
-<a href="https://pypi.org/project/diffprompt/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-dark.svg?v=20-12"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-light.svg?v=20-12" alt="DIFFPROMPT ON PyPI" height="34"></picture></a>
+<a href="https://rudradudhat2509.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-dark.svg?v=21-13"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-light.svg?v=21-13" alt="PORTFOLIO" height="34"></picture></a>
+<a href="https://rudradudhat2509.github.io/notes.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-dark.svg?v=21-13"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-light.svg?v=21-13" alt="FIELD NOTES" height="34"></picture></a>
+<a href="https://www.linkedin.com/in/rdudhat-iitbhilai/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-dark.svg?v=21-13"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-light.svg?v=21-13" alt="LINKEDIN" height="34"></picture></a>
+<a href="https://twitter.com/rudrabuilds"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-dark.svg?v=21-13"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-light.svg?v=21-13" alt="X / @RUDRABUILDS" height="34"></picture></a>
+<a href="mailto:contact.rdudhat@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-dark.svg?v=21-13"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-light.svg?v=21-13" alt="EMAIL" height="34"></picture></a>
+<a href="https://pypi.org/project/diffprompt/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-dark.svg?v=21-13"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-light.svg?v=21-13" alt="DIFFPROMPT ON PyPI" height="34"></picture></a>
 
 <!-- LINKS:END -->
 
@@ -35,7 +35,7 @@ Merged into other people's production codebases: observability, AI gateways, eva
 
 <div align="center">
 
-**In review:** [garak](https://github.com/NVIDIA/garak) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [shap](https://github.com/shap/shap) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy) · [ragas](https://github.com/vibrantlabsai/ragas)
+**In review:** [garak](https://github.com/NVIDIA/garak) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy) · [ragas](https://github.com/vibrantlabsai/ragas)
 
 </div>
 
@@ -48,6 +48,7 @@ Merged into other people's production codebases: observability, AI gateways, eva
 | [grpc/grpc](https://github.com/grpc/grpc) | [[Python] fix: remove ghost key in grpc.aio.Metadata.__delitem__ when last value is deleted](https://github.com/grpc/grpc/pull/42974) | 2026-08-13 |
 | [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [chore: remove leftover debug console.log statements + bootstrap backend testing](https://github.com/OpenLake/Student_Database_COSA/pull/266) | 2026-08-13 |
 | [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [fix: allow alphanumeric student ID in registration form](https://github.com/OpenLake/Student_Database_COSA/pull/257) | 2026-08-13 |
+| [567-labs/instructor](https://github.com/567-labs/instructor) | [fix(openai): copy schema before strict mutation to prevent lru_cache poisoning](https://github.com/567-labs/instructor/pull/2451) (folded into [#2495](https://github.com/567-labs/instructor/pull/2495)) | 2026-07-29 |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [fix: store OpenAI agent Generation span attributes under correct SpanAttributeKey constants](https://github.com/mlflow/mlflow/pull/24290) | 2026-07-14 |
 | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | [fix(evals): count AsyncExecutor timeouts against max_retries](https://github.com/Arize-ai/phoenix/pull/14361) | 2026-07-14 |
 | [open-telemetry/opentelemetry-python](https://github.com/open-telemetry/opentelemetry-python) | [fix: raise ValueError for unsorted ExplicitBucketHistogramAggregation boundaries](https://github.com/open-telemetry/opentelemetry-python/pull/5340) | 2026-07-06 |

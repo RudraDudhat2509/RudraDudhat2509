@@ -22,6 +22,20 @@ EMAIL = "contact.rdudhat@gmail.com"
 CO_AUTHORED = [
     "Arize-ai/phoenix#14361",
 ]
+# PRs where a maintainer folded my fix into a bigger consolidation PR instead
+# of merging mine directly, so neither externally_merged_commit() (no
+# reachable commit) nor co_authored_upstream() (no trailer) can verify them
+# from the API. Asserted by hand -- checked once against the consolidation
+# PR's diff -- and each entry names the PR that actually carries the change.
+MANUAL = [
+    {
+        "repo": "567-labs/instructor",
+        "number": 2451,
+        "title": "fix(openai): copy schema before strict mutation to prevent lru_cache poisoning",
+        "merged_at": "2026-07-29T04:34:52Z",
+        "folded_into": 2495,
+    },
+]
 README = "README.md"
 START = "<!-- OSS:START -->"
 END = "<!-- OSS:END -->"
@@ -121,6 +135,27 @@ def co_authored_upstream():
     return items
 
 
+def manual_upstream():
+    """Merged PRs from MANUAL, shaped like a search result.
+
+    Nothing here is API-verifiable (that's why it's manual), so each entry
+    carries the PR that actually landed the change for a human to spot-check.
+    """
+    items = []
+    for m in MANUAL:
+        pr_url = f"https://github.com/{m['repo']}/pull/{m['number']}"
+        folded_url = f"https://github.com/{m['repo']}/pull/{m['folded_into']}"
+        items.append({
+            "title": m["title"],
+            "html_url": pr_url,
+            "repository_url": f"https://api.github.com/repos/{m['repo']}",
+            "closed_at": m["merged_at"],
+            "number": m["number"],
+            "suffix": f"(folded into [#{m['folded_into']}]({folded_url}))",
+        })
+    return items
+
+
 def merged_upstream():
     """Every PR of mine that landed in someone else's repo."""
     merged = [i for i in search("is:merged") if is_external(i)]
@@ -134,6 +169,7 @@ def merged_upstream():
             merged.append(item)
 
     merged.extend(i for i in co_authored_upstream() if is_external(i))
+    merged.extend(i for i in manual_upstream() if is_external(i))
     return merged
 
 
@@ -162,7 +198,8 @@ def build_block():
     rows = sorted(merged, key=lambda i: i.get("closed_at") or "", reverse=True)
     table_rows = "\n".join(
         f"| [{repo_of(i)}](https://github.com/{repo_of(i)}) "
-        f"| [{i['title'].strip().replace('|', chr(92) + '|')}]({i['html_url']}) "
+        f"| [{i['title'].strip().replace('|', chr(92) + '|')}]({i['html_url']})"
+        f"{' ' + i['suffix'] if i.get('suffix') else ''} "
         f"| {(i.get('closed_at') or '')[:10]} |"
         for i in rows
     )

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="394"
      viewBox="0 0 1000 394" role="img"
-     aria-label="Case file on Rudra Dudhat, AI product engineer. 20 patches merged into 12 production repositories. Available winter 2026.">
+     aria-label="Case file on Rudra Dudhat, AI product engineer. 21 patches merged into 13 production repositories. Available winter 2026.">
   <defs>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
       <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="7"/>
@@ -57,8 +57,8 @@
     <rect x="750" y="44" width="196" height="106" fill="none"
           stroke="#C4593B" stroke-width="3"/>
     <text x="848" y="78" class="stamp-t" text-anchor="middle">PATCHES MERGED</text>
-    <text x="848" y="112" class="stamp-n" text-anchor="middle">&#215; 20</text>
-    <text x="848" y="136" class="stamp-t" text-anchor="middle">12 PROD REPOS</text>
+    <text x="848" y="112" class="stamp-n" text-anchor="middle">&#215; 21</text>
+    <text x="848" y="136" class="stamp-t" text-anchor="middle">13 PROD REPOS</text>
   </g>
 
   <text x="52" y="356" class="foot">EVIDENCE ATTACHED BELOW &#183; UPDATED DAILY BY CI</text>
