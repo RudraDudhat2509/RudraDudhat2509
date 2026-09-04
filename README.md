@@ -35,7 +35,7 @@ Merged into other people's production codebases: observability, AI gateways, eva
 
 <div align="center">
 
-**In review:** [garak](https://github.com/NVIDIA/garak) · [metaflow](https://github.com/Netflix/metaflow) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy) · [ragas](https://github.com/vibrantlabsai/ragas)
+**In review:** [garak](https://github.com/NVIDIA/garak) · [metaflow](https://github.com/Netflix/metaflow) · [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) · [clearml](https://github.com/clearml/clearml) · [mcp-injection-experiments](https://github.com/invariantlabs-ai/mcp-injection-experiments) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [openvino](https://github.com/openvinotoolkit/openvino) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy) · [ragas](https://github.com/vibrantlabsai/ragas)
 
 </div>
 
