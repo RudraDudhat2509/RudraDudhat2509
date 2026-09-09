@@ -4,9 +4,9 @@
 
 <a href="https://rudradudhat2509.github.io/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-dark.svg?v=21-13">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=21-13">
-    <img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=21-13" alt="Case file on Rudra Dudhat, AI product engineer. 21 patches merged into 13 production repositories. Available winter 2026." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-dark.svg?v=22-14">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=22-14">
+    <img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=22-14" alt="Case file on Rudra Dudhat, AI product engineer. 22 patches merged into 14 production repositories. Available winter 2026." width="100%">
   </picture>
 </a>
 
@@ -14,12 +14,12 @@
 
 <!-- LINKS:START -->
 
-<a href="https://rudradudhat2509.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-dark.svg?v=21-13"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-light.svg?v=21-13" alt="PORTFOLIO" height="34"></picture></a>
-<a href="https://rudradudhat2509.github.io/notes.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-dark.svg?v=21-13"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-light.svg?v=21-13" alt="FIELD NOTES" height="34"></picture></a>
-<a href="https://www.linkedin.com/in/rdudhat-iitbhilai/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-dark.svg?v=21-13"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-light.svg?v=21-13" alt="LINKEDIN" height="34"></picture></a>
-<a href="https://twitter.com/rudrabuilds"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-dark.svg?v=21-13"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-light.svg?v=21-13" alt="X / @RUDRABUILDS" height="34"></picture></a>
-<a href="mailto:contact.rdudhat@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-dark.svg?v=21-13"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-light.svg?v=21-13" alt="EMAIL" height="34"></picture></a>
-<a href="https://pypi.org/project/diffprompt/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-dark.svg?v=21-13"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-light.svg?v=21-13" alt="DIFFPROMPT ON PyPI" height="34"></picture></a>
+<a href="https://rudradudhat2509.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-dark.svg?v=22-14"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-light.svg?v=22-14" alt="PORTFOLIO" height="34"></picture></a>
+<a href="https://rudradudhat2509.github.io/notes.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-dark.svg?v=22-14"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-light.svg?v=22-14" alt="FIELD NOTES" height="34"></picture></a>
+<a href="https://www.linkedin.com/in/rdudhat-iitbhilai/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-dark.svg?v=22-14"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-light.svg?v=22-14" alt="LINKEDIN" height="34"></picture></a>
+<a href="https://twitter.com/rudrabuilds"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-dark.svg?v=22-14"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-light.svg?v=22-14" alt="X / @RUDRABUILDS" height="34"></picture></a>
+<a href="mailto:contact.rdudhat@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-dark.svg?v=22-14"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-light.svg?v=22-14" alt="EMAIL" height="34"></picture></a>
+<a href="https://pypi.org/project/diffprompt/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-dark.svg?v=22-14"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-light.svg?v=22-14" alt="DIFFPROMPT ON PyPI" height="34"></picture></a>
 
 <!-- LINKS:END -->
 
@@ -41,6 +41,7 @@ Merged into other people's production codebases: observability, AI gateways, eva
 
 | Repo | Contribution | Merged |
 |---|---|---|
+| [vatsalyd/NLP-Assignment](https://github.com/vatsalyd/NLP-Assignment) | [Fix Q4 grammar-check latency (dedupe binarization, cache CKY index, skip unused leftcorner calc)](https://github.com/vatsalyd/NLP-Assignment/pull/5) | 2026-09-08 |
 | [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [fix: add rate limiting to /auth/login and /auth/register](https://github.com/OpenLake/Student_Database_COSA/pull/268) | 2026-08-22 |
 | [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [fix: profile update no longer trusts a client-supplied userId (IDOR)](https://github.com/OpenLake/Student_Database_COSA/pull/269) | 2026-08-22 |
 | [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [fix: don't leak literal "undefined" into the header when user_id is missing](https://github.com/OpenLake/Student_Database_COSA/pull/267) | 2026-08-22 |
@@ -75,9 +76,9 @@ Tag a repo `flagship` on GitHub and it shows up here on the next daily run. No h
 
 | Project | What it does |
 |---|---|
+| **[diffprompt](https://github.com/RudraDudhat2509/diffprompt)** | git diff for prompt engineers - catch behavioural prompt regressions before they ship. |
 | **[OptiQuant](https://github.com/RudraDudhat2509/OptiQuant)** | AI-powered quantitative trading platform - ensemble ML (LightGBM + CatBoost + RF), backtesting engine, and live signal scoring. Previously deployed on AWS EC2, now on Streamlit Cloud. |
 | **[cacheguard](https://github.com/RudraDudhat2509/cacheguard)** | Drop-in safety layer that stops semantic caches from silently returning wrong answers — with the first independent open benchmark of semantic-cache false-hit rates. Free, local, LiteLLM + OpenTelemetry. |
-| **[diffprompt](https://github.com/RudraDudhat2509/diffprompt)** | git diff for prompt engineers - catch behavioural prompt regressions before they ship. |
 | **[brok](https://github.com/RudraDudhat2509/brok)** | An MCP that reviews your architecture, estimates real capacity from cited numbers, surfaces the trade-offs you are making, and roasts bad design in a dry voice. Deterministic engine, no model, runs free and local. |
 
 <!-- WORK:END -->
