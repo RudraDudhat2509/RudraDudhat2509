@@ -4,9 +4,9 @@
 
 <a href="https://rudradudhat2509.github.io/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-dark.svg?v=22-14">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=22-14">
-    <img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=22-14" alt="Case file on Rudra Dudhat, AI product engineer. 22 patches merged into 14 production repositories. Available winter 2026." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-dark.svg?v=23-15">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=23-15">
+    <img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=23-15" alt="Case file on Rudra Dudhat, AI product engineer. 23 patches merged into 15 production repositories. Available winter 2026." width="100%">
   </picture>
 </a>
 
@@ -14,12 +14,12 @@
 
 <!-- LINKS:START -->
 
-<a href="https://rudradudhat2509.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-dark.svg?v=22-14"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-light.svg?v=22-14" alt="PORTFOLIO" height="34"></picture></a>
-<a href="https://rudradudhat2509.github.io/notes.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-dark.svg?v=22-14"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-light.svg?v=22-14" alt="FIELD NOTES" height="34"></picture></a>
-<a href="https://www.linkedin.com/in/rdudhat-iitbhilai/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-dark.svg?v=22-14"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-light.svg?v=22-14" alt="LINKEDIN" height="34"></picture></a>
-<a href="https://twitter.com/rudrabuilds"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-dark.svg?v=22-14"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-light.svg?v=22-14" alt="X / @RUDRABUILDS" height="34"></picture></a>
-<a href="mailto:contact.rdudhat@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-dark.svg?v=22-14"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-light.svg?v=22-14" alt="EMAIL" height="34"></picture></a>
-<a href="https://pypi.org/project/diffprompt/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-dark.svg?v=22-14"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-light.svg?v=22-14" alt="DIFFPROMPT ON PyPI" height="34"></picture></a>
+<a href="https://rudradudhat2509.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-dark.svg?v=23-15"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-light.svg?v=23-15" alt="PORTFOLIO" height="34"></picture></a>
+<a href="https://rudradudhat2509.github.io/notes.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-dark.svg?v=23-15"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-light.svg?v=23-15" alt="FIELD NOTES" height="34"></picture></a>
+<a href="https://www.linkedin.com/in/rdudhat-iitbhilai/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-dark.svg?v=23-15"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-light.svg?v=23-15" alt="LINKEDIN" height="34"></picture></a>
+<a href="https://twitter.com/rudrabuilds"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-dark.svg?v=23-15"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-light.svg?v=23-15" alt="X / @RUDRABUILDS" height="34"></picture></a>
+<a href="mailto:contact.rdudhat@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-dark.svg?v=23-15"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-light.svg?v=23-15" alt="EMAIL" height="34"></picture></a>
+<a href="https://pypi.org/project/diffprompt/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-dark.svg?v=23-15"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-light.svg?v=23-15" alt="DIFFPROMPT ON PyPI" height="34"></picture></a>
 
 <!-- LINKS:END -->
 
@@ -35,12 +35,13 @@ Merged into other people's production codebases: observability, AI gateways, eva
 
 <div align="center">
 
-**In review:** [litellm](https://github.com/BerriAI/litellm) · [garak](https://github.com/NVIDIA/garak) · [metaflow](https://github.com/Netflix/metaflow) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [mesa](https://github.com/mesa/mesa) · [mesa-examples](https://github.com/mesa/mesa-examples) · [neural-lam](https://github.com/mllam/neural-lam) · [openvino](https://github.com/openvinotoolkit/openvino) · [pgmpy](https://github.com/pgmpy/pgmpy) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy)
+**In review:** [litellm](https://github.com/BerriAI/litellm) · [garak](https://github.com/NVIDIA/garak) · [metaflow](https://github.com/Netflix/metaflow) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [mesa-examples](https://github.com/mesa/mesa-examples) · [neural-lam](https://github.com/mllam/neural-lam) · [openvino](https://github.com/openvinotoolkit/openvino) · [pgmpy](https://github.com/pgmpy/pgmpy) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy)
 
 </div>
 
 | Repo | Contribution | Merged |
 |---|---|---|
+| [mesa/mesa](https://github.com/mesa/mesa) | [Make select() raise on invalid float at_most instead of silently ignoring it](https://github.com/mesa/mesa/pull/3853) | 2026-09-15 |
 | [vatsalyd/NLP-Assignment](https://github.com/vatsalyd/NLP-Assignment) | [Fix Q4 grammar-check latency (dedupe binarization, cache CKY index, skip unused leftcorner calc)](https://github.com/vatsalyd/NLP-Assignment/pull/5) | 2026-09-08 |
 | [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [fix: add rate limiting to /auth/login and /auth/register](https://github.com/OpenLake/Student_Database_COSA/pull/268) | 2026-08-22 |
 | [OpenLake/Student_Database_COSA](https://github.com/OpenLake/Student_Database_COSA) | [fix: profile update no longer trusts a client-supplied userId (IDOR)](https://github.com/OpenLake/Student_Database_COSA/pull/269) | 2026-08-22 |
