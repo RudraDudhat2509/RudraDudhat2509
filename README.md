@@ -35,7 +35,7 @@ Merged into other people's production codebases: observability, AI gateways, eva
 
 <div align="center">
 
-**In review:** [litellm](https://github.com/BerriAI/litellm) · [garak](https://github.com/NVIDIA/garak) · [metaflow](https://github.com/Netflix/metaflow) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [mesa-examples](https://github.com/mesa/mesa-examples) · [neural-lam](https://github.com/mllam/neural-lam) · [openvino](https://github.com/openvinotoolkit/openvino) · [pgmpy](https://github.com/pgmpy/pgmpy) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy)
+**In review:** [litellm](https://github.com/BerriAI/litellm) · [garak](https://github.com/NVIDIA/garak) · [metaflow](https://github.com/Netflix/metaflow) · [sagemaker-python-sdk](https://github.com/aws/sagemaker-python-sdk) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [mesa-examples](https://github.com/mesa/mesa-examples) · [neural-lam](https://github.com/mllam/neural-lam) · [openvino](https://github.com/openvinotoolkit/openvino) · [pgmpy](https://github.com/pgmpy/pgmpy) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy)
 
 </div>
 
