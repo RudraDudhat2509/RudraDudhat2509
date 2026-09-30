@@ -80,7 +80,7 @@ Tag a repo `flagship` on GitHub and it shows up here on the next daily run. No h
 |---|---|
 | **[diffprompt](https://github.com/RudraDudhat2509/diffprompt)** | git diff for prompt engineers - catch behavioural prompt regressions before they ship. |
 | **[OptiQuant](https://github.com/RudraDudhat2509/OptiQuant)** | AI-powered quantitative trading platform - ensemble ML (LightGBM + CatBoost + RF), backtesting engine, and live signal scoring. Previously deployed on AWS EC2, now on Streamlit Cloud. |
-| **[cacheguard](https://github.com/RudraDudhat2509/cacheguard)** | Drop-in safety layer that stops semantic caches from silently returning wrong answers — with the first independent open benchmark of semantic-cache false-hit rates. Free, local, LiteLLM + OpenTelemetry. |
+| **[cacheguard](https://github.com/RudraDudhat2509/cacheguard)** | Drop-in safety layer that stops semantic caches from silently returning wrong answers with the first independent open benchmark of semantic-cache false-hit rates. Free, local, LiteLLM + OpenTelemetry. |
 | **[brok](https://github.com/RudraDudhat2509/brok)** | An MCP that reviews your architecture, estimates real capacity from cited numbers, surfaces the trade-offs you are making, and roasts bad design in a dry voice. Deterministic engine, no model, runs free and local. |
 
 <!-- WORK:END -->
