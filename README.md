@@ -4,9 +4,9 @@
 
 <a href="https://rudradudhat2509.github.io/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-dark.svg?v=30-19">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=30-19">
-    <img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=30-19" alt="Case file on Rudra Dudhat, AI product engineer. 30 patches merged into 19 production repositories. Available winter 2026." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-dark.svg?v=32-20">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=32-20">
+    <img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/dossier-light.svg?v=32-20" alt="Case file on Rudra Dudhat, AI product engineer. 32 patches merged into 20 production repositories. Available winter 2026." width="100%">
   </picture>
 </a>
 
@@ -14,12 +14,12 @@
 
 <!-- LINKS:START -->
 
-<a href="https://rudradudhat2509.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-dark.svg?v=30-19"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-light.svg?v=30-19" alt="PORTFOLIO" height="34"></picture></a>
-<a href="https://rudradudhat2509.github.io/notes.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-dark.svg?v=30-19"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-light.svg?v=30-19" alt="FIELD NOTES" height="34"></picture></a>
-<a href="https://www.linkedin.com/in/rdudhat-iitbhilai/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-dark.svg?v=30-19"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-light.svg?v=30-19" alt="LINKEDIN" height="34"></picture></a>
-<a href="https://twitter.com/rudrabuilds"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-dark.svg?v=30-19"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-light.svg?v=30-19" alt="X / @RUDRABUILDS" height="34"></picture></a>
-<a href="mailto:contact.rdudhat@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-dark.svg?v=30-19"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-light.svg?v=30-19" alt="EMAIL" height="34"></picture></a>
-<a href="https://pypi.org/project/diffprompt/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-dark.svg?v=30-19"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-light.svg?v=30-19" alt="DIFFPROMPT ON PyPI" height="34"></picture></a>
+<a href="https://rudradudhat2509.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-dark.svg?v=32-20"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-portfolio-light.svg?v=32-20" alt="PORTFOLIO" height="34"></picture></a>
+<a href="https://rudradudhat2509.github.io/notes.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-dark.svg?v=32-20"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-notes-light.svg?v=32-20" alt="FIELD NOTES" height="34"></picture></a>
+<a href="https://www.linkedin.com/in/rdudhat-iitbhilai/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-dark.svg?v=32-20"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-linkedin-light.svg?v=32-20" alt="LINKEDIN" height="34"></picture></a>
+<a href="https://twitter.com/rudrabuilds"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-dark.svg?v=32-20"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-x-light.svg?v=32-20" alt="X / @RUDRABUILDS" height="34"></picture></a>
+<a href="mailto:contact.rdudhat@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-dark.svg?v=32-20"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-email-light.svg?v=32-20" alt="EMAIL" height="34"></picture></a>
+<a href="https://pypi.org/project/diffprompt/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-dark.svg?v=32-20"><img src="https://raw.githubusercontent.com/RudraDudhat2509/RudraDudhat2509/main/assets/link-pypi-light.svg?v=32-20" alt="DIFFPROMPT ON PyPI" height="34"></picture></a>
 
 <!-- LINKS:END -->
 
@@ -35,12 +35,14 @@ Merged into other people's production codebases: observability, AI gateways, eva
 
 <div align="center">
 
-**In review:** [litellm](https://github.com/BerriAI/litellm) · [garak](https://github.com/NVIDIA/garak) · [metaflow](https://github.com/Netflix/metaflow) · [sagemaker-python-sdk](https://github.com/aws/sagemaker-python-sdk) · [deepchem](https://github.com/deepchem/deepchem) · [jaeger](https://github.com/jaegertracing/jaeger) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [kyverno](https://github.com/kyverno/kyverno) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [mesa](https://github.com/mesa/mesa) · [mesa-examples](https://github.com/mesa/mesa-examples) · [neural-lam](https://github.com/mllam/neural-lam) · [movement](https://github.com/neuroinformatics-unit/movement) · [kruise](https://github.com/openkruise/kruise) · [pgmpy](https://github.com/pgmpy/pgmpy) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy)
+**In review:** [litellm](https://github.com/BerriAI/litellm) · [garak](https://github.com/NVIDIA/garak) · [metaflow](https://github.com/Netflix/metaflow) · [sagemaker-python-sdk](https://github.com/aws/sagemaker-python-sdk) · [deepchem](https://github.com/deepchem/deepchem) · [jaeger](https://github.com/jaegertracing/jaeger) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [mesa](https://github.com/mesa/mesa) · [mesa-examples](https://github.com/mesa/mesa-examples) · [neural-lam](https://github.com/mllam/neural-lam) · [movement](https://github.com/neuroinformatics-unit/movement) · [kruise](https://github.com/openkruise/kruise) · [pgmpy](https://github.com/pgmpy/pgmpy) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy)
 
 </div>
 
 | Repo | Contribution | Merged |
 |---|---|---|
+| [kyverno/kyverno](https://github.com/kyverno/kyverno) | [fix(ext/yaml): don't swallow YAML syntax errors in SplitDocuments](https://github.com/kyverno/kyverno/pull/17785) | 2026-10-18 |
+| [kyverno/kyverno](https://github.com/kyverno/kyverno) | [fix(ext/cluster): block non-GET RawAbsPath from reaching the real client](https://github.com/kyverno/kyverno/pull/17791) | 2026-10-18 |
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | [[OVC] Match example_input names by name, not position](https://github.com/openvinotoolkit/openvino/pull/38747) | 2026-10-14 |
 | [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | [fix(cache): Check TTL in CompareAndSwap](https://github.com/jaegertracing/jaeger/pull/9736) | 2026-10-10 |
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | [[OVC] Fix digit range in input validation regex (')-9' -> '0-9')](https://github.com/openvinotoolkit/openvino/pull/37889) | 2026-10-09 |
