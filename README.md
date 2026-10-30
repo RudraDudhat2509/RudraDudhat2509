@@ -35,7 +35,7 @@ Merged into other people's production codebases: observability, AI gateways, eva
 
 <div align="center">
 
-**In review:** [litellm](https://github.com/BerriAI/litellm) · [garak](https://github.com/NVIDIA/garak) · [metaflow](https://github.com/Netflix/metaflow) · [HAMi](https://github.com/Project-HAMi/HAMi) · [sagemaker-python-sdk](https://github.com/aws/sagemaker-python-sdk) · [deepchem](https://github.com/deepchem/deepchem) · [jaeger](https://github.com/jaegertracing/jaeger) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [mesa](https://github.com/mesa/mesa) · [neural-lam](https://github.com/mllam/neural-lam) · [movement](https://github.com/neuroinformatics-unit/movement) · [opentelemetry-python](https://github.com/open-telemetry/opentelemetry-python) · [kruise](https://github.com/openkruise/kruise) · [openvino](https://github.com/openvinotoolkit/openvino) · [pgmpy](https://github.com/pgmpy/pgmpy) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy)
+**In review:** [litellm](https://github.com/BerriAI/litellm) · [garak](https://github.com/NVIDIA/garak) · [metaflow](https://github.com/Netflix/metaflow) · [sagemaker-python-sdk](https://github.com/aws/sagemaker-python-sdk) · [deepchem](https://github.com/deepchem/deepchem) · [jaeger](https://github.com/jaegertracing/jaeger) · [ianvs](https://github.com/kubeedge/ianvs) · [sdk](https://github.com/kubeflow/sdk) · [langfuse-python](https://github.com/langfuse/langfuse-python) · [mesa](https://github.com/mesa/mesa) · [neural-lam](https://github.com/mllam/neural-lam) · [movement](https://github.com/neuroinformatics-unit/movement) · [opentelemetry-python](https://github.com/open-telemetry/opentelemetry-python) · [kruise](https://github.com/openkruise/kruise) · [openvino](https://github.com/openvinotoolkit/openvino) · [pgmpy](https://github.com/pgmpy/pgmpy) · [sktime](https://github.com/sktime/sktime) · [sympy](https://github.com/sympy/sympy)
 
 </div>
 
@@ -88,9 +88,9 @@ Tag a repo `flagship` on GitHub and it shows up here on the next daily run. No h
 
 | Project | What it does |
 |---|---|
+| **[diffprompt](https://github.com/RudraDudhat2509/diffprompt)** | git diff for prompt engineers - catch behavioural prompt regressions before they ship. |
 | **[cacheguard](https://github.com/RudraDudhat2509/cacheguard)** | Drop-in safety layer that stops semantic caches from silently returning wrong answers — with the first independent open benchmark of semantic-cache false-hit rates. Free, local, LiteLLM + OpenTelemetry. |
 | **[brok](https://github.com/RudraDudhat2509/brok)** | An MCP that reviews your architecture, estimates real capacity from cited numbers, surfaces the trade-offs you are making, and roasts bad design in a dry voice. Deterministic engine, no model, runs free and local. |
-| **[diffprompt](https://github.com/RudraDudhat2509/diffprompt)** | git diff for prompt engineers - catch behavioural prompt regressions before they ship. |
 | **[OptiQuant](https://github.com/RudraDudhat2509/OptiQuant)** | AI-powered quantitative trading platform - ensemble ML (LightGBM + CatBoost + RF), backtesting engine, and live signal scoring. Previously deployed on AWS EC2, now on Streamlit Cloud. |
 
 <!-- WORK:END -->
